@@ -15,6 +15,11 @@
     <style>
         body{
             background-color: #292929;
+            margin: 0;
+        }
+        
+        .landing{
+            min-height: 95vh;
         }
 
         .image{
@@ -92,14 +97,46 @@
             font-family: 'Quicksand', sans-serif;
         }
 
+        .aboutme{
+            min-height: 100vh;
+            background-color: #1f1f1f;
+            color: white;
+        }
+
+
+        .abouttext{
+            display: inline-flex;
+            /* flex-wrap: row; */
+            flex-direction: column;
+            
+            max-width: 50rem;
+            padding: 20px;
+            padding-bottom: 50px;
+            margin-left: 13vw;
+            
+            /* background-color: #E0E0E0; */
+            border-radius: 20px;
+            background-color: #1a1a1a59;
+        }
+
+        .container{
+            padding-top: 10vh;
+        }
+
+        p{
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        h1{
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+        }
+
 
     </style>
 
     <body>
 
-        <div class="module" id="module"></div>
-
-        <header>
+        <header class="landing">
             <div class = image>
                 <img src="images\logo.png" alt="My Logo">
             </div>
@@ -110,17 +147,37 @@
                 <h3 style="margin-top: 2px;">A</h3>
                 <h3 class="typewriter"> X</h3> 
             </div>
+
+            <nav>
+                <div>
+                    <a href="awards.html">Awards</a> <label> | </label>
+                    <a href="skills.html">Skill</a> <label> | </label>
+                    <a href="contact.html">Contact</a> 
+                </div>
+            </nav>
         </header>
-        
 
-        <nav>
-            <div>
-                <a href="awards.html">Awards</a> <label> | </label>
-                <a href="skills.html">Skill</a> <label> | </label>
-                <a href="contact.html">Contact</a> 
+        <!-- ----------------------------------------- -->
+        <section class="aboutme">
+            <div class="container">
+                <div class="abouttext">
+                    <h1>About Me</h1>
+                    <p>This is a paragraph that hopefully does something it's suppose to do
+                        This is a paragraph that hopefully does something it's suppose to do 
+                        This is a paragraph that hopefully does something it's suppose to do 
+                        This is a paragraph that hopefully does something it's suppose to do 
+                        This is a paragraph that hopefully does something it's suppose to do 
+                        This is a paragraph that hopefully does something it's suppose to do 
+                        This is a paragraph that hopefully does something it's suppose to do 
+                    </p>
+                </div>
             </div>
-        </nav>
 
-        
+
+            
+
+            
+        </section>
+
     </body>
 </html>
