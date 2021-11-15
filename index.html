@@ -19,7 +19,7 @@
         }
         
         .landing{
-            min-height: 95vh;
+            min-height: 80vh;
         }
 
         .image{
@@ -28,7 +28,6 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            /* background-color: rgb(113, 162, 162); */
 
         }
 
@@ -38,7 +37,6 @@
             justify-content: center;
             align-items: center;
             margin-bottom: 0px;
-            /* background-color: aqua; */
             
             color: #E0E0E0;
             font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -101,6 +99,7 @@
             min-height: 100vh;
             background-color: #1f1f1f;
             color: white;
+            background: linear-gradient(to bottom, transparent, #1f1f1f 4%);
         }
 
 
@@ -131,6 +130,19 @@
             font-family: 'ZCOOL QingKe HuangYou', cursive;
         }
 
+        #background-video {
+        
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
 
     </style>
 
@@ -155,6 +167,10 @@
                     <a href="contact.html">Contact</a> 
                 </div>
             </nav>
+
+            <video id="background-video" autoplay loop muted>
+                <source src="video/background.mp4" type="video/mp4">
+              </video>
         </header>
 
         <!-- ----------------------------------------- -->
