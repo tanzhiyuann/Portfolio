@@ -74,8 +74,6 @@
             font-size: 20px;
         }
 
-        
-
         .indexnav > div > a:link, a:visited{
             color: white;
             text-decoration: none;
@@ -147,7 +145,7 @@
         }
 
 
-        /* Phone (Iphone 11, Iphone X, Iphone 5, Samsung Fold) */
+        /* Phone (Iphone 11, Iphone X, Iphone 5) */
         @media only screen and (max-width: 456px) {
             nav > div > label{
             color: white;
@@ -187,7 +185,18 @@
             }
         }
 
-        @media only screen and (max-width: 1000px) {
+        /* Phone (GALAXY FOLD // EXTRA SMALL PHONES) */
+        @media only screen and (max-width: 320px) {
+            .indexnav > div > label{
+                color: white;
+                margin-left: 20px;
+                margin-right: 20px;
+                font-size: 20px;
+            }
+
+        }
+
+        @media only screen and (max-width: 1024px) {
             .abouttext{
                 display: flex;
                 /* flex-wrap: row; */
