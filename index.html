@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"> <!-- Font : ZCOOL QingKe HuangYou -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">
     </head>
 
     <style>
@@ -73,14 +73,7 @@
             font-size: 20px;
         }
 
-        @media only screen and (max-width: 400px) {
-            nav > div > label{
-            color: white;
-            margin-left: 10px;
-            margin-right: 10px;
-            font-size: 20px;
-            }
-        }
+        
 
         nav > div > a:link, a:visited{
             color: white;
@@ -104,22 +97,32 @@
 
 
         .abouttext{
-            display: inline-flex;
+            display: flex;
             /* flex-wrap: row; */
             flex-direction: column;
             
-            max-width: 50rem;
             padding: 20px;
             padding-bottom: 50px;
-            margin-left: 13vw;
-            
-            /* background-color: #E0E0E0; */
+
+            flex-basis: 40%;
             border-radius: 20px;
             background-color: #1a1a1a59;
         }
 
+        .aboutimage{
+            /*padding-left: 100px; Gives a cool cutoff effect */
+            border-radius: 100px;
+            width: 30%;
+            height: auto;
+            margin-left: 50px;
+
+        }
+
         .container{
-            padding-top: 10vh;
+            justify-content: center;
+            display: flex;
+            flex-flow: wrap row;
+            padding-top: 100px;
         }
 
         p{
@@ -144,13 +147,68 @@
         }
 
 
+        /* Phone (Iphone 11, Iphone X, Iphone 5, Samsung Fold) */
+        @media only screen and (max-width: 456px) {
+            nav > div > label{
+            color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 20px;
+            }
+
+            .abouttext{
+            display: flex;
+            /* flex-wrap: row; */
+            flex-direction: column;
+            
+            padding: 20px;
+            padding-bottom: 50px;
+
+            flex-basis: 80%;
+            border-radius: 20px;
+            background-color: #1a1a1a59;
+            }
+
+            .aboutimage{
+                border-radius: 90px;
+                width: 90%;
+                height: auto;
+                padding-top: 10px;
+                margin-left: 0px;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            .abouttext{
+            display: flex;
+            /* flex-wrap: row; */
+            flex-direction: column;
+            
+            padding: 20px;
+            padding-bottom: 50px;
+
+            flex-basis: 80%;
+            border-radius: 20px;
+            background-color: #1a1a1a59;
+            }
+
+            .aboutimage{
+                border-radius: 90px;
+                width: 90%;
+                height: auto;
+                padding-top: 10px;
+                margin-left: 0px;
+            }
+
+        }
+
     </style>
 
     <body>
 
         <header class="landing">
             <div class = image>
-                <img src="images\logo.png" alt="My Logo">
+                <img src="images\logo.png" alt="Addison's Logo">
             </div>
     
                 <h1 class="name" style="margin-bottom: 0px;">Addison Chua Jie Yi</h1>
@@ -187,6 +245,8 @@
                         This is a paragraph that hopefully does something it's suppose to do 
                     </p>
                 </div>
+                <img class="aboutimage" src="https://i.imgur.com/RfW7xee.jpg" alt="Image of Addison">
+                
             </div>
 
 
