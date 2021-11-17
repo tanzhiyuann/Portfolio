@@ -1,0 +1,23 @@
+/* Background Fallback/default colour */
+body{
+    background-color: #292929;
+    margin: 0;
+}
+
+/* <p> font */
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* <h1> font */
+h1{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+/* container class */
+.container{
+    justify-content: center;
+    display: flex;
+    flex-flow: wrap row;
+    padding-top: 100px;
+}
