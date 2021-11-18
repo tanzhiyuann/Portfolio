@@ -21,6 +21,119 @@
             visibility: hidden;
             display: none;
         }
+
+        body{
+            min-height: 200vh;
+        }
+
+        label{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 18px;
+            color: rgb(170, 170, 170);
+            font-weight: 300;
+        }
+
+        .prg-row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+
+        .small-container{
+            display: flex;
+            flex-basis: 50%;
+        }
+
+        .cs, .py, .html, .css, .js, .sql{
+            display: flex;
+
+            height: 8px;
+            width: 100%;
+            background: rgb(194, 194, 194);
+            position: relative;
+            border-radius: 10px;
+        }
+
+        .cs::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 75%;
+            left: 0;
+            top: 0;
+            background: rgb(168, 122, 255);
+            border-radius: 10px;
+        }
+
+
+        .py::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 90%;
+            left: 0;
+            top: 0;
+            background: rgb(168, 122, 255);
+            border-radius: 10px;
+        }
+
+        .html::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 70%;
+            left: 0;
+            top: 0;
+            background: rgb(168, 122, 255);
+            border-radius: 10px;
+        }
+
+        .css::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 75%;
+            left: 0;
+            top: 0;
+            background: rgb(168, 122, 255);
+            border-radius: 10px;
+        }
+
+        .js::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 65%;
+            left: 0;
+            top: 0;
+            background: rgb(168, 122, 255);
+            border-radius: 10px;
+        }
+
+        .sql::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 55%;
+            left: 0;
+            top: 0;
+            background: rgb(168, 122, 255);
+            border-radius: 10px;
+        }
+
+        .carditem{
+            display: flex;
+            background: rgb(26, 26, 26);
+            flex-basis: 25%;
+            height: 250px;
+            border-radius: 10px;
+            padding: 30px;
+            color: white;
+            border-radius: 30px;
+        }
+
+        
     </style>
     <body>
         <header>
@@ -49,9 +162,110 @@
 
                 </div>
             </nav>
+
+            <div class="card" style="background: transparent; height: auto; width: auto;">
+                <h1 style="margin-bottom: 2px; font-size: 50px;">Skills</h1>
+                <label style="font-weight: 600;">What am I good at?</label>
+            </div>
+            
         </header>
         
         
+        
+        <div class="container" style="padding-top: 30px;">
+            <div class="card" style="flex-basis: 55%; height: auto;">
+
+                <div class="prg-row">
+                    <div class="small-container"><label style="font-weight: 600;">C #</label></div>
+                    <div class="small-container" style="justify-content: flex-end;"><label style="font-weight: 900;">75%</label></div>
+                </div>
+                <div class="cs" style="margin-bottom: 25px; margin-top: 5px;"></div>
+
+                <div class="prg-row">
+                    <div class="small-container"><label style="font-weight: 600;">Python</label></div>
+                    <div class="small-container" style="justify-content: flex-end;"><label style="font-weight: 900;">90%</label></div>
+                </div>
+                <div class="py" style="margin-bottom: 25px; margin-top: 5px;"></div>
+
+                <div class="prg-row">
+                    <div class="small-container"><label style="font-weight: 600;">HTML</label></div>
+                    <div class="small-container" style="justify-content: flex-end;"><label style="font-weight: 900;">70%</label></div>
+                </div>
+                <div class="html" style="margin-bottom: 25px; margin-top: 5px;"></div>
+
+                <div class="prg-row">
+                    <div class="small-container"><label style="font-weight: 600;">CSS</label></div>
+                    <div class="small-container" style="justify-content: flex-end;"><label style="font-weight: 900;">75%</label></div>
+                </div>
+                <div class="css" style="margin-bottom: 25px; margin-top: 5px;"></div>
+
+                <div class="prg-row">
+                    <div class="small-container"><label style="font-weight: 600;">JavaScript</label></div>
+                    <div class="small-container" style="justify-content: flex-end;"><label style="font-weight: 900;">65%</label></div>
+                </div>
+                <div class="js" style="margin-bottom: 25px; margin-top: 5px;"></div>
+
+                <div class="prg-row">
+                    <div class="small-container"><label style="font-weight: 600;">SQL</label></div>
+                    <div class="small-container" style="justify-content: flex-end;"><label style="font-weight: 900;">55%</label></div>
+                </div>
+                <div class="sql" style="margin-bottom: 25px; margin-top: 5px;"></div>
+
+            </div>
+
+
+            <div class="card" style="height: auto;">
+                <h1 style="margin: 2px;">Education</h1>
+                <label>what is my education background?</label><br>
+
+                <p style="line-height: 2.8vh;">
+                    Prior to poly, I had little to no programming background but in 2016, I thought myself basic lua and arduino (C). <br>
+                    I took Design & Technology (DNT) as my coursework in Secondary School as was top in my cohort for sec 1 and 2.<br><br>
+                    In 2021, I enrolled into Ngee Ann Poly as a diploma student in Information Technology (IT) and 
+                    In Year 1 Semester 1, I learnt python and achieved a grade of A+ for my Programming 1 (PRG1) classes.
+                    In Year 2 Semester 2, I am currently learning C#, JavaScript, HTML, CSS and SQL (Database). <br>
+                </p>
+            </div>
+        </div>
+
+        <div class="container" style="padding-top: 20px;">
+            <div class="card" style="flex-basis: 93%; height: auto;">
+                <h1 style="margin: 2px;">C#</h1>
+                <label style="font-weight: 600;">A fun programming language (IMO)</label>
+
+                <div class="container" style="padding-top: 20px;">
+                    <div class="carditem">placeholder</div>
+                    <div class="carditem">placeholder</div>
+                    <div class="carditem">placeholder</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="padding-top: 40px;">
+            <div class="card" style="flex-basis: 93%; height: auto;">
+                <h1 style="margin: 2px;">Python</h1>
+                <label style="font-weight: 600;">Simple yet useful programming language</label>
+
+                <div class="container" style="padding-top: 20px;">
+                    <div class="carditem">placeholder</div>
+                    <div class="carditem">placeholder</div>
+                    <div class="carditem">placeholder</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="padding-top: 40px;">
+            <div class="card" style="flex-basis: 93%; height: auto;">
+                <h1 style="margin: 2px;">Misc.</h1>
+                <label style="font-weight: 600;">Music, Blender, After effects</label>
+
+                <div class="container" style="padding-top: 20px;">
+                    <div class="carditem">placeholder</div>
+                    <div class="carditem">placeholder</div>
+                    <div class="carditem">placeholder</div>
+                </div>
+            </div>
+        </div>
         
     </body>
 </html>
