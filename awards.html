@@ -6,11 +6,203 @@
         <title>Addison's Awards</title>
         <meta name="description" content="All of my academic awards">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"> <!-- Font : ZCOOL QingKe HuangYou -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js" defer></script>
     </head>
+    <style>
+        *{
+            overflow: visible;
+        }
+
+        body{
+            background: white;
+        }
+
+        .navbar > .nav-container > .menu > li > a {
+            color: black;
+        }
+
+        .navbar.sticky {
+            position: relative;
+            width: 100px;
+            background-color: #ffffff;
+            top: 0;
+            z-index: 10000;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #hamburger{
+            -webkit-appearance: none;
+            visibility: hidden;
+            display: none;
+        }
+
+        .parallax{
+            height: 100%;
+        }
+
+        .para-list{
+            list-style-type: none;
+            padding: 0;
+            margin:0;
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+            justify-content: center;
+            align-items: middle;
+            place-items: center;
+            min-height: 100vh;
+
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-size:5em;
+            
+
+        }
+
+        label{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 18px;
+            color: rgb(170, 170, 170);
+            font-weight: 300;
+        }
+
+        h3{
+            font-family: 'Montserrat';
+            font-weight: bold;
+        }
+
+        h1{
+            color: black;
+        }
+
+        .card{
+            background: transparent;
+        }
+
+
+    </style>
+    
     <body>
+        <header>
+            <nav class = "navbar">
+                <div class="nav-container">
+                    
+                    <div class="logo">
+                        <a href="index.html">Addison Chua<br>Portfolio</a>
+                    </div>
+
+                    <label>
+                        <input type="checkbox" id="hamburger">
+                        <div class="bar">
+                            <span class = "top"></span>
+                            <span class = "middle"></span>
+                            <span class = "bottom"></span>
+                        </div>
+                    </label>
+
+                    <ul class = "menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+
+        <section class="parallax">
+            <ul class="para-list">
+                <li class="para-scroll" data-rate="-0.4">Achi</li>
+                <li>eve</li>
+                <li class="para-scroll" data-rate="0.3">ments</li>
+            </ul>
+        </section>
+
         
-        
-        
+
+        <section style="height:100vh;">
+            <h3 style="display: flex; justify-content: center; font-size: 10em;">2016</h3>
+            <div class="container" style="align-items: flex-start;justify-content: start;">
+                <div class="card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
+                    Image goes here
+                </div>
+                <div class="card" style="margin-left: 30px; flex-basis: 42%; height: 500px;">
+                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Test</h1>
+                    <label style="font-weight: 600;">What am I good at?</label>
+                </div>
+            </div>
+
+            <div class="container" style="align-items: flex-end;justify-content: end;">
+                <div class="card" style="margin-left: 30px; flex-basis: 42%; height: 500px; align-items: flex-end;">
+                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Test</h1>
+                    <label style="font-weight: 600;">What am I good at?</label>
+                </div>
+                <div class="card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
+                    Image goes here
+                </div>
+            </div>
+
+            <div class="container" style="align-items: flex-start;justify-content: start;">
+                <div class="card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
+                    Image goes here
+                </div>
+                <div class="card" style="margin-left: 30px; flex-basis: 42%; height: 500px;">
+                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Test</h1>
+                    <label style="font-weight: 600;">What am I good at?</label>
+                </div>
+            </div>
+
+            <div class="container" style="align-items: flex-end;justify-content: end;">
+                <div class="card" style="margin-left: 30px; flex-basis: 42%; height: 500px; align-items: flex-end;">
+                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Test</h1>
+                    <label style="font-weight: 600;">What am I good at?</label>
+                </div>
+                <div class="card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
+                    Image goes here
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
     </body>
+    <script>
+        
+
+        window.addEventListener("scroll",function(e){
+            const word = document.querySelectorAll(".para-scroll")
+            var exit = false;
+            if (window.pageYOffset > 674){
+                exit = true;
+            }
+
+            var i = 0;
+            var length = word.length;
+
+            if (exit === false){
+                for (i; i < length; i++){
+                var pos = window.pageYOffset * word[i].dataset.rate;
+                word[i].style.transform = 'translate3d('+pos+'%,0px,0px)'
+            }
+
+            }
+            
+
+            
+        })
+
+        console.log(window.pageYOffset)
+
+    </script>
 </html>
