@@ -4,6 +4,19 @@ body{
     margin: 0;
 }
 
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(45%);
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -23,6 +36,9 @@ h1{
     color: white;
 }
 
+
+/*---------------->>> FLEX BOX STUFF <<<---------------- */
+
 /* container class */
 .container{
     justify-content: space-around;
@@ -30,6 +46,18 @@ h1{
     flex-flow: wrap row;
     padding-top: 100px;
 }
+
+/* card template */
+.card{
+    display: flex;
+    /* flex-wrap: row; */
+    flex-direction: column;
+    padding: 40px;
+    flex-basis: 30%;
+    border-radius: 20px;
+    background-color: #222222;
+    height: 400px;
+    }
 
 
 /* >>> ---------- NAVIGATION (NAV) BAR ----------<<<*/
