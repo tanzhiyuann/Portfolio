@@ -129,6 +129,7 @@
         <header>
             <nav class = "navbar">
                 <div class="nav-container">
+                    
                     <div class="logo">
                         <a href="index.html">Addison Chua<br>Portfolio</a>
                     </div>
@@ -165,6 +166,12 @@
                     This is a paragraph that hopefully does something it's suppose to do 
                     This is a paragraph that hopefully does something it's suppose to do 
                 </p>
+                <div class="card3" style="display:flex; justify-content: space-around; margin-top: 30px;">
+                    <a href="https://www.linkedin.com/in/addison-chua/" id="linkedin"><img src="https://img.icons8.com/external-justicon-lineal-color-justicon/50/000000/external-linkedin-social-media-justicon-lineal-color-justicon.png"/></a>
+                    <a href="#" id="whatsapp"><img src="https://img.icons8.com/external-justicon-lineal-color-justicon/50/000000/external-whatsapp-social-media-justicon-lineal-color-justicon.png"/></a>
+                    <a href="https://github.com/NotAddison" id="github"><img src="https://img.icons8.com/fluency/55/000000/github.png"/></a>
+
+                </div>
             </div>
 
             <form class="card">
@@ -183,33 +190,15 @@
                 <div class="input-row" style="margin-top: 30px; justify-content: center; align-items: center;">
                     <button class="submitbutton">Submit</button>
                 </div>
-            </form>
-
-            
-            
+            </form>                
+        </div>
     </body>
 
-    <script>
-        console.log('loaded')
-        var burgor = document.getElementById("hamburger");
-        var menu = document.querySelector(".menu");
-        let i = 0;
-        burgor.addEventListener("click", function(){
-            
-            i++
-            if (i%2 === 0){
-                console.log('menu closed');
-                menu.classList.remove("open");
-            }
-            else{
-                console.log('menu open');
-                menu.classList.add("open");
-            }
-            
-            
-        })
-
+    <script>document.getElementById("whatsapp").addEventListener("click",function(){
+        window.alert("Sorry, not giving personal phone num to public!")
+    });
     </script>
+
 
     
 </html>
