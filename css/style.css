@@ -10,18 +10,21 @@ html{
 
 /* <p>/<a> font */
 p, a{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
     color: white;
 }
 
 /* <h1> font */
 h1{
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    color: white;
 }
 
 /* container class */
 .container{
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
     flex-flow: wrap row;
     padding-top: 100px;
