@@ -4,9 +4,14 @@ body{
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* <p>/<a> font */
 p, a{
     font-family: 'Quicksand', sans-serif;
+    color: white;
 }
 
 /* <h1> font */
@@ -24,11 +29,24 @@ h1{
 
 
 /* >>> ---------- NAVIGATION (NAV) BAR ----------<<<*/
+
 .navbar{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    transition: all 0.3s ease-out;
+}
+
+.navbar.sticky {
     position: fixed;
     width: 100%;
     background-color: #363636;
+    top: 0;
+    z-index: 10000;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 
 .nav-container{
     max-width: 1300px;
@@ -63,10 +81,14 @@ h1{
     
 }
 
+.navbar > .nav-container > .menu > li > a:hover {
+    color: #0a99f8;
+    
+}
+
 .navbar > .nav-container > .menu > li {
     list-style-type: none;
     display: inline-block;
     padding: 0px;
 
 }
-
