@@ -9,3 +9,23 @@ document.addEventListener("scroll",function(){
     else navbar.classList.remove("sticky");
 
 });
+
+// >> NAVIGATION (NAV) BAR [MOBILE] <<
+console.log('loaded')
+var burgor = document.getElementById("hamburger");
+var menu = document.querySelector(".menu");
+let i = 0;
+burgor.addEventListener("click", function(){
+    
+    i++
+    if (i%2 === 0){
+        console.log('menu closed');
+        menu.classList.remove("open");
+    }
+    else{
+        console.log('menu open');
+        menu.classList.add("open");
+    }
+    
+    
+})
