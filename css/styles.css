@@ -24,7 +24,7 @@ html{
 /* <p>/<a> font */
 p, a{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     font-weight: 300;
 }
