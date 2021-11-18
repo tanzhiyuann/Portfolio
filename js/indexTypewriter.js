@@ -1,3 +1,6 @@
+// ONLY USED IN MAIN(INDEX) PAGE thus,
+// Cannot put in (main) script.js as it would be called everytime
+
 console.log('loaded')
 const text = document.getElementById('typewriter')
 const phrases  = ['Full Stack Developer','Music Producer','Digital Artist (3D)','Video/Photo Editor','Human?']
