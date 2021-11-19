@@ -17,12 +17,12 @@ var menu = document.querySelector(".menu");
 let i = 0;
 burgor.addEventListener("click", function(){
     
-    i++
+    i++ // if clicked once, number is odd thus, menu is open. <<
     if (i%2 === 0){
         console.log('menu closed');
         menu.classList.remove("open");
     }
-    else{
+    else{ 
         console.log('menu open');
         menu.classList.add("open");
     }
