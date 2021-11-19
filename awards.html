@@ -15,7 +15,11 @@
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/script.js" defer></script>
     </head>
+
     <style>
+
+        /* CANNOT MOVE TO MAIN STYLE.CSS SINCE THE PAGE THEME (WHITE) IS DIFFERENT FROM THE REST (DARK) */
+
         *{
             overflow: visible;
         }
@@ -94,29 +98,29 @@
             margin-bottom: 0vh;
 
             /* Turns the text into a mask */
+            background-clip: border-box;
             -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent;
-            
         }
 
         .year:nth-child(1){
-            background-image: url(/images/poster.jpg);
+            background-image: url(images/poster.jpg);
         }
 
         .year:nth-child(3){
-            background-image: url(/images/BG3.jpg);
+            background-image: url(images/BG3.jpg);
             
         }
 
         .year:nth-child(5){
-            background-image: url(/images/BG2.png);
+            background-image: url(images/BG2.png);
             background-position: 500px -700px;
             background-size: cover;
             background-repeat: no-repeat;
         }
 
         .year:nth-child(9){
-            background-image: url(/images/BG1.png);
+            background-image: url(images/BG1.png);
             background-position: 500px -700px;
             background-size: cover;
             background-repeat: no-repeat;
