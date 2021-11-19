@@ -33,8 +33,10 @@ Typewriting effect in index page
 
 
 ## To Do 
-- 
+- Replace placeholders (skill page)
+- Fix media query for Awards page
+- Add more animated elements in Awards page
 
-
+#
 ## Status
 Still In Development
