@@ -132,6 +132,35 @@
             color: white;
             border-radius: 30px;
         }
+
+        .card-with-bars{
+            display: flex;
+            /* flex-wrap: row; */
+            flex-direction: column;
+            padding: 40px;
+            border-radius: 20px;
+            background-color: #222222;
+            flex-basis: 55%; 
+            height: auto;
+        }
+
+        /* FOR SMALL LAPTOPS */
+        @media only screen and (max-width: 1024px) {
+            .card-with-bars {
+                flex-basis: 50%;
+            }
+
+        }
+
+        /* FOR TABLETS AND MOBILE PHONES */
+        @media only screen and (max-width: 768px) {
+            .card, .card-with-bars, .carditem{
+                flex-basis: 80%;
+                margin-bottom: 15px;
+            }
+
+        }
+
     </style>
 
 
@@ -173,7 +202,7 @@
         
         <!-- Main contents (will add <main> later on) -->
         <div class="container" style="padding-top: 30px;">
-            <div class="card" style="flex-basis: 55%; height: auto;">
+            <div class="card-with-bars">
 
                 <div class="prg-row">
                     <div class="small-container"><label style="font-weight: 600;">C #</label></div>
