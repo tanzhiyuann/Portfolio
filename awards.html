@@ -46,6 +46,7 @@
 
         .parallax{
             height: 100%;
+            
         }
 
         .para-list{
@@ -63,7 +64,6 @@
             font-weight: bold;
             font-size:5em;
             
-
         }
 
         label{
@@ -85,6 +85,45 @@
         .card{
             background: transparent;
         }
+
+        .year{
+            display: flex; 
+            justify-content: center; 
+            font-size: 10em; 
+            margin-top: 10vh; 
+            margin-bottom: 0vh;
+
+            /* Turns the text into a mask */
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent;
+            
+        }
+
+        .year:nth-child(1){
+            background-image: url(/images/poster.jpg);
+        }
+
+        .year:nth-child(3){
+            background-image: url(/images/BG3.jpg);
+            
+        }
+
+        .year:nth-child(5){
+            background-image: url(/images/BG2.png);
+            background-position: 500px -700px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .year:nth-child(9){
+            background-image: url(/images/BG1.png);
+            background-position: 500px -700px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+
+
 
 
     </style>
@@ -128,8 +167,8 @@
 
         
 
-        <section style="height:100vh;">
-            <h3 style="display: flex; justify-content: center; font-size: 10em; margin-top: 10vh; margin-bottom: 10vh;">2016</h3>
+        <section style="height:100vh;" class="content">
+            <h3 class="year"> -- 2016 -- </h3>
             
             <div class="container" style="align-items: flex-start;justify-content: start; margin-bottom:40vh;">
                 <div class="card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
@@ -149,7 +188,7 @@
                 </div>
             </div>
 
-            <h3 style="display: flex; justify-content: center; font-size: 10em; margin-top: 10vh; margin-bottom: 10vh;">2017</h3>
+            <h3 class="year">-- 2017 --</h3>
 
             <div class="container" style="align-items: flex-end;justify-content: end; margin-bottom:40vh;">
                 <div class="card" style="margin-left: 30px; flex-basis: 42%; height: 500px; align-items: flex-end;">
@@ -171,7 +210,7 @@
                 </div>
             </div>
 
-            <h3 style="display: flex; justify-content: center; font-size: 10em; margin-top: 10vh; margin-bottom: 10vh;">2018</h3>
+            <h3 class="year">-- 2018 --</h3>
 
             <div class="container" style="align-items: flex-start;justify-content: start;">
                 <div class="card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
@@ -228,7 +267,7 @@
                 </div>
             </div>
 
-            <h3 style="display: flex; justify-content: center; font-size: 10em; margin-top: 10vh; margin-bottom: 10vh;">2019</h3>
+            <h3 class="year">-- 2019 --</h3>
             
             <div class="container" style="align-items: flex-start;justify-content: start; ">
                 <div class="card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
@@ -260,15 +299,11 @@
                 </div>
             </div>
 
-
-
-
-
         </section>
 
     </body>
+
     <script>
-        
 
         window.addEventListener("scroll",function(e){
             const word = document.querySelectorAll(".para-scroll")
