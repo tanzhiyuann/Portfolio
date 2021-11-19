@@ -115,8 +115,12 @@ h1{
 }
 
 .navbar > .nav-container > .menu > li > a:hover {
+    font-weight: 600;
     color: #0a99f8;
-    
+    border-bottom: 3px solid #0a99f8;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    transition: ease-in-out 0.1s; 
 }
 
 .navbar > .nav-container > .menu > li {
