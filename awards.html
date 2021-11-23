@@ -63,12 +63,19 @@
             justify-content: center;
             align-items: middle;
             place-items: center;
-            min-height: 100vh;
+            min-height: 85vh;
 
             font-family: 'Montserrat';
             font-weight: bold;
+            color: white;
             font-size:5em;
-            
+
+            background-image: url(images/background2-poster.jpg);
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 10px;
+            border-radius: 5rem;
+                    
         }
 
         label{
@@ -89,12 +96,14 @@
 
         .card{
             background: transparent;
+            flex-basis: 40%;
+            height: auto;
         }
 
         .year{
             display: flex; 
             justify-content: center; 
-            font-size: 10rem; 
+            font-size: 400%; 
             margin-top: 10vh; 
             margin-bottom: 0vh;
 
@@ -130,13 +139,19 @@
         .image-card{
             display: flex;
             /* flex-wrap: row; */
-            flex-direction: column;
+            flex-direction: row;
             padding: 40px;
             flex-basis: 30%;
-            border-radius: 20px;
             background-color: transparent;
-            height: 400px;
             transition: all 0.5s ease-in-out;
+        }
+
+        img{
+            height:auto; 
+            width:80%; 
+            border-radius: 10px;
+            max-width: 400px;
+            max-height: 500px;
         }
 
         .image-card:hover{
@@ -145,33 +160,48 @@
             transform: rotateX(20deg) rotateY(20deg) rotateZ(-10deg);
         }
 
-        .card{
-            margin-left: 30px; 
-            flex-basis: 42%; 
-            height: 500px;
+        section > div > .container:nth-child(1){
+            flex-direction: row-reverse;
         }
+
+        section > div > .container:nth-child(3){
+            flex-direction: row-reverse;
+        }
+
+        
 
 
         /* Only the image-cards on the right would "face" to left (usually there would be 2 image cards in 1 container (1 left[1], 1 right[2])) */
         .image-card:hover:nth-child(2){transform: rotateX(-20deg) rotateY(20deg) rotateZ(10deg);}
 
-
-        /* Media Query still incomplete (currently not working on devices smaller than 1000px) */
-        @media only screen and (max-width: 800px) {
-            .image-card{
-                flex-basis: 80%;
-                justify-content: center !important;
-                align-items: center !important;
+        @media only screen and (max-width: 768px) {
+            .para-list{
+                min-height: 25vh;
             }
-            
+
             .card{
-                flex-basis: 80% ;
-                margin-bottom: 15px;
-                justify-content: center !important;
-                align-items: center !important;
-                text-align: center !important;
+                align-items: center;
+                text-align: center;
+                align-content: center;
+                flex-basis: 80%;
+                padding-bottom: 0px;
+            }
+
+            .image-card{
+                align-items: center;
+                align-content: center;
+                flex-basis: 100%;
+                justify-content: center;
+            }
+
+            .para-list{
+                font-size: 3em;
+                margin-top: 5%;
+                border-radius: 20px;
+                min-height: 100vh;
             }
         }
+
     </style>
     
     <body>
@@ -207,143 +237,153 @@
             <ul class="para-list">
                 <li class="para-scroll" data-rate="-0.4">A</li>
                 <li>war</li>
-                <li class="para-scroll" data-rate="0.3">ds</li>
+                <li class="para-scroll" data-rate="0.18">ds</li>
             </ul>
         </section>
 
 
         <section style="height:100vh;" class="content">
-            <h3 class="year"> -- 2016 -- </h3>
+            <div>
+                <h3 class="year"> -- 2016 -- </h3>
+                <div class="container">
+                    <div class="image-card">
+                        <span class="mouse-over"></span>
+                        <img src="images/EAGLES.jpg" alt="EAGLES award">
+                    </div>
+                    <div class="card">
+                        <h1 style="margin-top: 0px; margin-bottom: 2px;">EAGLES awards</h1>
+                        <a class="a-image" href="#"><label style="font-weight: 600;">Scouts leader (2016)</label></a>
+                        
+                        <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
+                            In primary 3-6, I was a scout leader for my CCA. <br>
+                            I carried out simple tasks such as being involved with organizing and planning out our activities<br>
+                            for our CCA sessions. To be completely honest, most of the time was just helping the teachers
+                            with mundane tasks and I really didn't do that much work since in Primary School, teachers do plan and
+                            carry out the main activities. Being a scout leader was a fun position for me and I would honestly like to be one again hehe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             
-            <div class="container" style="align-items: flex-start;justify-content: start; margin-bottom:25vh;">
-                <div class="image-card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
-                    <span class="mouse-over"></span>
-                    <img src="images/EAGLES.jpg" style="height:100%; width:auto; border-radius: 10px;" alt="EAGLES award">
-                </div>
-                <div class="card">
-                    <h1 style="margin-top: 0px; margin-bottom: 2px;">EAGLES awards</h1>
-                    <a class="a-image" href="#"><label style="font-weight: 600;">Scouts leader (2016)</label></a>
-                    
-                    <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
-                        In primary 3-6, I was a scout leader for my CCA. <br>
-                        I carried out simple tasks such as being involved with organizing and planning out our activities<br>
-                        for our CCA sessions. To be completely honest, most of the time was just helping the teachers
-                        with mundane tasks and I really didn't do that much work since in Primary School, teachers do plan and
-                        carry out the main activities. Being a scout leader was a fun position for me and I would honestly like to be one again hehe.
-                    </p>
-                </div>
-            </div>
+            <div>
+                <h3 class="year">-- 2017 --</h3>
 
-            <h3 class="year">-- 2017 --</h3>
+                <div class="container">
+                    <div class="image-card">
+                        <img src="images/scholarhsip-2017.jpg" alt="Edusave Scholarship Award 2017">
+                    </div>
+                    <div class="card">
+                        <h1 style="margin-top: 0px; margin-bottom: 2px;">Edusave Scholarship</h1>
+                        <label style="font-weight: 600;">My First Ever Scholarship!</label>
 
-            <div class="container" style="align-items: flex-end;justify-content: end; margin-bottom:25vh;">
-                <div class="card" style="align-items: flex-end;">
-                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Edusave Scholarship</h1>
-                    <label style="font-weight: 600;">My First Ever Scholarship!</label>
-
-                    <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589); text-align: end;">
-                        Secondary 1 was the year where I actually decided to set my life straight. 
-                        Before secondary school, I was an extremely playful kid. I didn;t like studying and always goofed around.
-                        However after being posted into Normal Academic (Laterally Promoted to exp in 2019) I decided to be responsible
-                        and began to study seriously. I would spend my days after school studying instead of playing video games as I 
-                        wanted to improve my academics. <br><br>
-                        Through hardwork and dedication towards studying, I've managed to achieve this wonderful achievement and is one that I
-                        treasure dearly. (Never in a thousand years would I have expected to get a scholarship award.)
-                    </p>
-                </div>
-                <div class="image-card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
-                    <img src="images/scholarhsip-2017.jpg" style="height:100%; width:auto; border-radius: 10px;"alt="Edusave Scholarship Award 2017">
+                        <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
+                            Secondary 1 was the year where I actually decided to set my life straight. 
+                            Before secondary school, I was an extremely playful kid. I didn;t like studying and always goofed around.
+                            However after being posted into Normal Academic (Laterally Promoted to exp in 2019) I decided to be responsible
+                            and began to study seriously. I would spend my days after school studying instead of playing video games as I 
+                            wanted to improve my academics. <br><br>
+                            Through hardwork and dedication towards studying, I've managed to achieve this wonderful achievement and is one that I
+                            treasure dearly. (Never in a thousand years would I have expected to get a scholarship award.)
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <h3 class="year">-- 2018 --</h3>
-
-            <div class="container" style="align-items: flex-start;justify-content: start;">
-                <div class="image-card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
-                    <img src="images/scholarhsip-2018.jpg" style="height:100%; width:auto; border-radius: 10px;">
-                </div>
-                <div class="card">
-                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Edusave Scholarship</h1>
-                    <a class="a-image" href="#"><label style="font-weight: 600;">Another one ?!?!</label></a>
-                    
-                    <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
-                        In order to be laterally promoted into the Express stream from Normal Academics, I needed an average grade score of 70%.
-                        However, in secondary 1, I was 0.5% away from achieving my goal. I was really disappointed with myself and decided to push myself even further.
-                        The urge of wanting to be promoted into express made me realize how important education really is. <br><br>
-
-                        I'm honestly quite proud of myself receiving a Scholarship award back to back and it's become a strange addiction for me to try to achieve as much as I could
-                        for not only in secondary school but outside of education in general, to do everything to the best of my abilities.
-                    </p>
-                </div>
-            </div>
-
-            <div class="container" style="align-items: flex-end;justify-content: end; ">
-                <div class="card" style="align-items: flex-end;">
-                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Commendation</h1>
-                    <label style="font-weight: 600;">Best in performance among my cohort!</label>
-
-                    <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589); text-align: end;">
-                        Woohoo! <br> After all the hard sweat and tears I've put into my studies and revision, I've finally achieved one of my goals of
-                        being promoted to express with an average grade of 76% across all my subjects!
-                    </p>
-                </div>
-                <div class="image-card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
-                    <img src="images/KR-best-in-cohort.jpg" style="height:100%; width:auto; border-radius: 10px;"alt="2018 Commendation best in cohort">
-                </div>
-            </div>
-
-
-            <div class="container" style="align-items: flex-start;justify-content: start;">
-                <div class="image-card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
-                    <img src="images/KR-best-in-subj.jpg" style="height:100%; width:auto; border-radius: 10px;" alt="2018 commendation subjects">
-                </div>
-                <div class="card" style="margin-bottom:20vh;">
-                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Commendation (Subjects)</h1>
-                    <a class="a-image" href="#"><label style="font-weight: 600;">Subjects that I was good in</label></a>
-                    
-                    <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
-                        Design and Technology (DNT) was the best out of the other 2 subjects listed in the certificate.
-                        I was really really close to beating my other friend who promoted to Express as well in SBB/Express Math.
-                        If I recall correctly I was just 5 marks away :*( 
-                        <br><br> 
-                        I found history and science really interesting and was fascinated by singapore's history of WW2 as well as basic physics and chemistry for science.
-                        Though my english isn't really my strong point (still decent), I was shocked that I was top in my cohort for that as well!
-                    </p>
-                </div>
-            </div>
-
-            <h3 class="year">-- 2019 --</h3>
             
-            <div class="container" style="align-items: flex-start;justify-content: start; ">
-                <div class="image-card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
-                    <img src="images/2019-Performance.jpg" style="height:100%; width:auto; border-radius: 10px;" alt=" 2019 Academic Achievement Award">
+            <div>
+                <h3 class="year">-- 2018 --</h3>
+
+                <div class="container">
+                    <div class="image-card">
+                        <img src="images/scholarhsip-2018.jpg" alt = "2018 Scholarship">
+                    </div>
+                    <div class="card">
+                        <h1 style="margin-top: 0px; margin-bottom: 2px;">Edusave Scholarship</h1>
+                        <a class="a-image" href="#"><label style="font-weight: 600;">Another one ?!?!</label></a>
+                        
+                        <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
+                            In order to be laterally promoted into the Express stream from Normal Academics, I needed an average grade score of 70%.
+                            However, in secondary 1, I was 0.5% away from achieving my goal. I was really disappointed with myself and decided to push myself even further.
+                            The urge of wanting to be promoted into express made me realize how important education really is. <br><br>
+
+                            I'm honestly quite proud of myself receiving a Scholarship award back to back and it's become a strange addiction for me to try to achieve as much as I could
+                            for not only in secondary school but outside of education in general, to do everything to the best of my abilities.
+                        </p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Academic Achievement</h1>
-                    <a class="a-image" href="#"><label style="font-weight: 600;">An academic achievement award?</label></a>
-                    
-                    <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
-                        I'm not entirely sure to why I received this award even though my grades were mediocre <br>[High B - Mid A (EXCEPT FOR HUMANITIES 💀)].<br><br>
-                        One possible reason could be because I was the only one in my class that passed humanities in secondary 3 and maybe other classes were also struggling?<br>
-                        But thats the only reason I could think of that has made be achieve this achievement lol.
-                    </p>
+
+            
+                <div class="container">
+                    <div class="image-card">
+                        <img src="images/KR-best-in-cohort.jpg" alt="2018 Commendation best in cohort">
+                    </div>
+                    <div class="card">
+                        <h1 style="margin-top: 0px; margin-bottom: 2px;">Commendation</h1>
+                        <label style="font-weight: 600;">Best in performance among my cohort!</label>
+
+                        <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
+                            Woohoo! <br> After all the hard sweat and tears I've put into my studies and revision, I've finally achieved one of my goals of
+                            being promoted to express with an average grade of 76% across all my subjects!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="image-card">
+                        <img src="images/KR-best-in-subj.jpg" alt="2018 commendation subjects">
+                    </div>
+                    <div class="card" style="margin-bottom:20vh;">
+                        <h1 style="margin-top: 0px; margin-bottom: 2px;">Commendation (Subjects)</h1>
+                        <a class="a-image" href="#"><label style="font-weight: 600;">Subjects that I was good in</label></a>
+                        
+                        <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
+                            Design and Technology (DNT) was the best out of the other 2 subjects listed in the certificate.
+                            I was really really close to beating my other friend who promoted to Express as well in SBB/Express Math.
+                            If I recall correctly I was just 5 marks away :*( 
+                            <br><br> 
+                            I found history and science really interesting and was fascinated by singapore's history of WW2 as well as basic physics and chemistry for science.
+                            Though my english isn't really my strong point (still decent), I was shocked that I was top in my cohort for that as well!
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="container" style="align-items: flex-end;justify-content: end; margin-bottom:25vh;">
-                <div class="card" style="align-items: flex-end; ">
-                    <h1 style="margin-top: 0px; margin-bottom: 2px;">Merit</h1>
-                    <label style="font-weight: 600;">A merit award??</label>
 
-                    <p style="padding-top:10px; font-weight: 400; color: black; text-align: end;">
-                        I'm not entirely sure why I got this as well but apparently I did something good?
-                    </p>
+            
+            <div>
+                <h3 class="year">-- 2019 --</h3>
+            
+                <div class="container">
+                    <div class="image-card">
+                        <img src="images/2019-Performance.jpg" alt=" 2019 Academic Achievement Award">
+                    </div>
+                    <div class="card">
+                        <h1 style="margin-top: 0px; margin-bottom: 2px;">Academic Achievement</h1>
+                        <a class="a-image" href="#"><label style="font-weight: 600;">An academic achievement award?</label></a>
+                        
+                        <p style="padding-top:10px; font-weight: 600; color: rgba(0, 0, 0, 0.589);">
+                            I'm not entirely sure to why I received this award even though my grades were mediocre <br>[High B - Mid A (EXCEPT FOR HUMANITIES 💀)].<br><br>
+                            One possible reason could be because I was the only one in my class that passed humanities in secondary 3 and maybe other classes were also struggling?<br>
+                            But thats the only reason I could think of that has made be achieve this achievement lol.
+                        </p>
+                    </div>
                 </div>
-                <div class="image-card" style="margin-left: 30px; flex-basis: 20%; height: 500px;">
-                    <img src="images/2019-merit-CDC-CCC.jpg" style="height:100%; width:auto; border-radius: 10px;"alt="2019 Merit Award">
+
+                <div class="container">
+                    <div class="image-card">
+                        <img src="images/2019-merit-CDC-CCC.jpg" alt="2019 Merit Award">
+                    </div>
+                    <div class="card">
+                        <h1 style="margin-top: 0px; margin-bottom: 2px;">Merit</h1>
+                        <label style="font-weight: 600;">A merit award??</label>
+
+                        <p style="padding-top:10px; font-weight: 600; color: black;">
+                            I'm not entirely sure why I got this as well but apparently I did something good?
+                        </p>
+                    </div>       
                 </div>
             </div>
-
         </section>
 
     </body>
