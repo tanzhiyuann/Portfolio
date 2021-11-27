@@ -9,7 +9,6 @@ Interactive Development Assignment 1 (Personal Portfolio) <br>
 2. [Status](#Status)
 
 
-#
 
 ## Purpose Of Application
 <b>Intended user audience :</b> Adults looking for potential employees<br />
@@ -33,10 +32,26 @@ Typewriting effect in index page
 
 
 ## To Do 
+<b>General : </b>
 - Replace placeholders (skill page)
-- Fix media query for Awards page
-- Add more animated elements in Awards page
+- Replace placeholders (contact page)
+- Change parallax background image (awards page)
+- Comments for JS/HTML/CSS
 
-#
+
+<b>Features :</b>
+- Custom scroll bar
+- Add more animated elements in Awards page
+- Clean Up HTML & CSS files
+- Fade in effect when scrolling (skills/awards)
+- Responsive contact me form
+- Skills project cards ; slide out text
+
+<b>Bugs :</b>
+- ~~Fix media query for Awards page~~
+- Awards mask text hard to read
+- Common page margin
+
+
 ## Status
 Still In Development
