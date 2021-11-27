@@ -1,3 +1,19 @@
+/* 
+Documentation (FOR NAVIGATION):
+:: Use Ctrl+F To Navigate Through to find the styles for a page ::
+
+    > Flexbox fallbacks (defaults)
+    > NAVIGATION (NAV) BAR
+    
+    > index.html
+    > awards.html
+    > skills.html
+    > contact.html
+
+*/
+
+
+
 /* Background Fallback/default colour */
 body{
     background-color: #292929;
@@ -37,7 +53,7 @@ h1{
 }
 
 
-/*---------------->>> FLEX BOX STUFF <<<---------------- */
+/*---------------->>> Flexbox fallbacks (defaults) <<<---------------- */
 
 /* container class */
 .container{
@@ -419,7 +435,6 @@ label{
 @media only screen and (max-width: 1024px) {
     .abouttext{
         display: flex;
-        /* flex-wrap: row; */
         flex-direction: column;
         
         padding: 20px;
@@ -663,7 +678,6 @@ textarea{
 
 .card2-Contact{
     display: flex;
-    /* flex-wrap: row; */
     flex-direction: column;
     padding: 20px;
     flex-basis: 30%;
