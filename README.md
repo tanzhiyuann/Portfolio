@@ -1,14 +1,17 @@
-# Assignment1
+# ID - Assignment 1
 Interactive Development Assignment 1 (Personal Portfolio) <br>
  A functional website to display my skills, talents and inform the user more about me. The website should be responsive and interactive to impress the audience/user with my current programming knowledge and potentially hire me.
+
+<br />
 
 ## Table of Contents
 1. [Purpose Of Application](#Purpose-Of-Application)
 2. [Reasons for Designs](#Reasons-for-Designs)
 2. [Features](#Features)
+2. [To Do](#To-Do)
 2. [Status](#Status)
 
-
+<br />
 
 ## Purpose Of Application
 <b>Intended user audience :</b> Adults looking for potential employees<br />
@@ -26,10 +29,13 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 >However, for my achievement page, I went with a white Design as I wanted the user to be "awake" when viewing my achievements and breakout from the mundane and repetitive dark theme. <br />
 <b>(switch up in theme = more exciting imo)</b>
 
+<br />
+
 ## Features
 Interactive images (About Me picture in index, Awards & skills page)<br>
 Typewriting effect in index page
 
+<br />
 
 ## To Do 
 <b>General : </b>
@@ -52,6 +58,7 @@ Typewriting effect in index page
 - Awards mask text hard to read
 - Common page margin
 
+<br />
 
 ## Status
 Still In Development
