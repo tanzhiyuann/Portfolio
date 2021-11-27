@@ -41,25 +41,26 @@ Typewriting effect in index page
 
 ## To Do 
 <b>General : </b>
+- Add Loading poster (index page)
 - Replace placeholders (skill page)
 - Replace placeholders (contact page)
 - Change parallax background image (awards page)
 - Change parallax text font (awards page)
 - Comments for JS/HTML/CSS
+- Clean Up HTML & CSS files
 
 
 <b>Features :</b>
 - Custom scroll bar
 - Add more animated elements in Awards page
-- Clean Up HTML & CSS files
 - Fade in effect when scrolling (skills/awards)
 - Responsive contact me form
 - Skills project cards ; slide out text
 
 <b>Bugs :</b>
 - ~~Fix media query for Awards page~~
-- Mobile parallax overflow (Samsung Fold)
-- Awards mask text hard to read
+- Mobile parallax overflow [Samsung Fold] (awards page)
+- Mask text hard to read (awards page)
 
 <br>
 
