@@ -130,6 +130,19 @@ h1{
 
 }
 
+#hamburger{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+
+label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(170, 170, 170);
+    font-weight: 300;
+}
+
 @media only screen and (max-width: 768px) {
     #hamburger{
         -webkit-appearance: none;
@@ -225,6 +238,146 @@ h1{
         padding-bottom: 2vh;
         border-radius: 30px;
         
+    }
+
+}
+
+/* -------------- Skills.html -----------------*/
+.prg-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.small-container{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.cs, .py, .html, .css, .js, .sql{
+    display: flex;
+
+    height: 8px;
+    width: 100%;
+    background: rgb(194, 194, 194);
+    position: relative;
+    border-radius: 10px;
+}
+
+.cs::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    left: 0;
+    top: 0;
+    background: rgb(168, 122, 255);
+    border-radius: 10px;
+}
+
+
+.py::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    left: 0;
+    top: 0;
+    background: rgb(168, 122, 255);
+    border-radius: 10px;
+}
+
+.html::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    left: 0;
+    top: 0;
+    background: rgb(168, 122, 255);
+    border-radius: 10px;
+}
+
+.css::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    left: 0;
+    top: 0;
+    background: rgb(168, 122, 255);
+    border-radius: 10px;
+}
+
+.js::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    left: 0;
+    top: 0;
+    background: rgb(168, 122, 255);
+    border-radius: 10px;
+}
+
+.sql::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    left: 0;
+    top: 0;
+    background: rgb(168, 122, 255);
+    border-radius: 10px;
+}
+
+.carditemskills{
+    display: flex;
+    background: rgb(26, 26, 26);
+    flex-basis: 25%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.carditemskills:hover{
+    transition: all 0.3s linear;
+    transform: scale(1.05);
+}
+
+.card-with-bars{
+    display: flex;
+    /* flex-wrap: row; */
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #222222;
+    flex-basis: 55%; 
+    height: auto;
+}
+
+/* FOR SMALL LAPTOPS */
+@media only screen and (max-width: 1072px) {
+    .card-with-bars {
+        flex-basis: 50%;
+    }
+
+}
+
+/* FOR TABLETS AND MOBILE PHONES */
+@media only screen and (max-width: 800px) {
+    .card, .card-with-bars, .carditem{
+        flex-basis: 80%;
+        margin-bottom: 15px;
+    }
+
+    .carditemskills{
+        flex-basis: 80%;
+        margin-bottom: 2vh;
     }
 
 }
