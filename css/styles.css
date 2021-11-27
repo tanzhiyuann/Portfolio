@@ -711,3 +711,224 @@ textarea{
         padding-top: 200px;
     }
 }
+
+/* >>> ---------- awards.html ---------<<<*/
+
+.white-body{
+    background: white;
+}
+
+.white-body > header > .navbar > .nav-container > .menu > li > a {
+    color: black;
+    
+}
+
+.white-body > header > .navbar > .nav-container > .menu > li > a:hover {
+    color: #0a99f8;
+}
+
+.white-body > header >.navbar.sticky {
+    position: relative;
+    width: 100px;
+    background-color: #ffffff;
+    top: 0;
+    z-index: 10000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.para-list{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: middle;
+    place-items: center;
+    min-height: 85vh;
+
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size:5em;
+
+    background-image: url(../images/background2-poster.jpg);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    border-radius: 5rem;
+            
+}
+
+
+div:nth-child(1) .year{
+    background-image: url(../images/poster.jpg);
+}
+
+div:nth-child(2) .year{
+    background-image: url(../images/BG3.jpg);
+    
+}
+
+div:nth-child(3) .year{
+    background-image: url(../images/BG2.png);
+    background-position: 500px -700px;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+div:nth-child(4) .year{
+    background-image: url(../images/BG1.png);
+    background-position: 500px -1000px;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+/* Only the image-cards on the right would "face" to left (usually there would be 2 image cards in 1 container (1 left[1], 1 right[2])) */
+.image-card:hover:nth-child(2){transform: rotateX(-20deg) rotateY(20deg) rotateZ(10deg);}
+
+
+.black-h1{
+    color: black;
+    margin-top: 0px; 
+    margin-bottom: 2px;
+}
+
+
+.year{
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+    display: flex; 
+    justify-content: center; 
+    font-size: 400%; 
+    margin-top: 10vh; 
+    margin-bottom: 0vh;
+
+    /* Turns the text into a mask */
+    background-clip: border-box;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.text-card{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    flex-basis: 30%;
+    border-radius: 20px;
+    height: 400px;
+    background: transparent;
+    flex-basis: 40%;
+    height: auto;
+}
+
+.image-card{
+    display: flex;
+    /* flex-wrap: row; */
+    flex-direction: row;
+    padding: 40px;
+    flex-basis: 30%;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.image-card:hover{
+    transition: all 0.3s linear;
+    transform: scale(1.1);
+    transform: rotateX(20deg) rotateY(20deg) rotateZ(-10deg);
+}
+
+section > div > .container:nth-child(1){
+    flex-direction: row-reverse;
+}
+
+section > div > .container:nth-child(3){
+    flex-direction: row-reverse;
+}
+
+.award-image{
+    height:auto; 
+    width:80%; 
+    border-radius: 10px;
+    max-width: 400px;
+    max-height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* ------- NAVIGATION (BAR) WHITE BACKGROUND -------- */
+
+    .white-body > header >.navbar.sticky {
+        position: fixed;
+        width: 100%;
+        background-color: #363636;
+        top: 0;
+        z-index: 10000;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .white-body > header > .navbar > .nav-container > .menu > li > a {
+        color: white;
+        
+    }
+
+    .white-body > header > .navbar > .nav-container > label > .bar .middle{
+        height : 4px;
+        width: 33px;
+        background: rgba(172, 172, 172);
+        border-radius: 50px;
+        position: absolute;
+        transition: 0.3s ease;
+    }
+    .white-body > header > .navbar > .nav-container > label > .bar .top{
+        bottom: 10px;
+        height : 4px;
+        width: 35px;
+        background: rgba(172, 172, 172);
+        border-radius: 50px;
+        position: absolute;
+        transition: 0.3s ease;
+    }
+    .white-body > header > .navbar > .nav-container > label > .bar .bottom{
+        top: 10px;
+        height : 4px;
+        width: 35px;
+        background: rgba(172, 172, 172);
+        border-radius: 50px;
+        position: absolute;
+        transition: 0.3s ease;
+    }
+
+    /* ------------------------------------------------------------- */
+
+    .para-list{
+        min-height: 25vh;
+    }
+
+    .text-card{
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        flex-basis: 80%;
+        padding-bottom: 0px;
+    }
+
+    .image-card{
+        align-items: center;
+        align-content: center;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .para-list{
+        font-size: 3em;
+        margin-top: 5%;
+        border-radius: 20px;
+        min-height: 80vh;
+    }
+}
+
