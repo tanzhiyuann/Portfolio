@@ -58,6 +58,7 @@ Typewriting effect in index page
 - Skills project cards ; slide out text
 
 <b>Bugs :</b>
+- aboutimage disappears when tapped (aka "hover") [iphone 11] (index page)
 - ~~Fix media query for Awards page~~
 - Mobile parallax overflow [Samsung Fold] (awards page)
 - Mask text hard to read (awards page)
@@ -65,4 +66,4 @@ Typewriting effect in index page
 <br>
 
 ## Status
-Still In Development
+Still In Development 📝
