@@ -143,6 +143,10 @@ label{
     font-weight: 300;
 }
 
+.logo{
+    margin-left: 20px;
+}
+
 @media only screen and (max-width: 768px) {
     #hamburger{
         -webkit-appearance: none;
@@ -240,6 +244,9 @@ label{
         
     }
 
+    .logo{
+        margin-left: 20px;
+    }
 }
 
 
@@ -578,3 +585,105 @@ label{
 
 }
 
+/* >>> ---------- contact.html ----------<<<*/
+
+.contacth1{
+    margin-bottom: 2px; 
+ }
+
+.contactSubHeader {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color:white;
+    font-style: italic;
+}
+
+.input-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+input{
+    height:40px;
+    border-radius: 8px;
+    border-color: rgba(182, 182, 182, 0.801);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    width: 40.5%;
+    background-color: rgba(95, 95, 95, 0.137);
+    color: rgb(26, 26, 26);
+    padding: 5px;
+}
+
+textarea{
+    height:40px;
+    border-radius: 4px;
+    border-color: rgba(182, 182, 182, 0.801);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    width: 88%;
+    height: 250px;
+    background-color: rgba(95, 95, 95, 0.137);
+    color: rgb(41, 41, 41);
+    padding: 10px;
+}
+
+.submitbutton{
+    height: 30px;
+    border-radius: 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    border: 5px;
+    background-color: rgb(45, 45, 45);
+    color:white;
+    width: 60%;
+    height: 4vh;
+
+}
+
+.container-Contact{
+    justify-content: space-around;
+    display: flex;
+    flex-flow: wrap row;
+    padding-top: 100px;
+    padding-top: 20vh;
+}
+
+.card-Contact{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    flex-basis: 30%;
+    border-radius: 20px;
+    height: 500px;
+    justify-content: center;
+    background-color: #c7c7c7f1;
+}
+
+.card2-Contact{
+    display: flex;
+    /* flex-wrap: row; */
+    flex-direction: column;
+    padding: 20px;
+    flex-basis: 30%;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card-Contact, .card2-Contact{
+        flex-basis: 100%;
+    }
+
+    .card-Contact{
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .container-Contact{
+        padding-top: 200px;
+    }
+}
