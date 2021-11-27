@@ -3,7 +3,7 @@ Interactive Development Assignment 1 (Personal Portfolio) <br>
  A functional website to display my skills, talents and inform the user more about me. The website should be responsive and interactive to impress the audience/user with my current programming knowledge and potentially hire me.
 
 <br>
-Link to website : [Click Me!](https://notaddison.github.io/Portfolio/)
+Link to website : https://notaddison.github.io/Portfolio/
 <br>
 
 ## Table of Contents
@@ -44,6 +44,7 @@ Typewriting effect in index page
 - Replace placeholders (skill page)
 - Replace placeholders (contact page)
 - Change parallax background image (awards page)
+- Change parallax text font (awards page)
 - Comments for JS/HTML/CSS
 
 
@@ -57,7 +58,7 @@ Typewriting effect in index page
 
 <b>Bugs :</b>
 - ~~Fix media query for Awards page~~
-- Mobile parallax overflow
+- Mobile parallax overflow (Samsung Fold)
 - Awards mask text hard to read
 - Common page margin
 
