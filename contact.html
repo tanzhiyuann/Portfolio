@@ -17,107 +17,7 @@
         <script src="js/script.js" defer></script>
     </head>
 
-    <style>
-        .container{
-            padding-top: 20vh;
-        }
-
-        .card{
-            height: 500px;
-            justify-content: center;
-            background-color: #c7c7c7f1;
-        }
-
-        .card2{
-            display: flex;
-            /* flex-wrap: row; */
-            flex-direction: column;
-            padding: 20px;
-            flex-basis: 30%;
-            border-radius: 20px;
-            background-color: transparent;
-
-        }
-        
-
-        input{
-            height:40px;
-            border-radius: 8px;
-            border-color: rgba(182, 182, 182, 0.801);
-            font-family: 'Source Sans Pro', sans-serif;
-            font-weight: 800;
-            width: 40.5%;
-            background-color: rgba(95, 95, 95, 0.137);
-            color: rgb(26, 26, 26);
-            padding: 5px;
-        }
-
-        textarea{
-            height:40px;
-            border-radius: 4px;
-            border-color: rgba(182, 182, 182, 0.801);
-            font-family: 'Source Sans Pro', sans-serif;
-            font-weight: 900;
-            width: 88%;
-            height: 250px;
-            background-color: rgba(95, 95, 95, 0.137);
-            color: rgb(41, 41, 41);
-            padding: 10px;
-        }
-
-        .submitbutton{
-            height: 30px;
-            border-radius: 7px;
-            font-family: 'Source Sans Pro', sans-serif;
-            font-weight: 900;
-            border: 5px;
-            background-color: rgb(45, 45, 45);
-            color:white;
-            width: 60%;
-            height: 4vh;
-
-        }
-
-        .input-row{
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
-        }
-
-        h1{
-           margin-bottom: 2px; 
-        }
-
-        .container > .card2 > label {
-            font-family: 'Source Sans Pro', sans-serif;
-            font-weight: 300;
-            color:white;
-            font-style: italic;
-        }
-
-        @media only screen and (max-width: 768px) {
-            .card, .card2{
-                flex-basis: 100%;
-            }
-
-            .card{
-                margin-left: 4vw;
-                margin-right: 4vw;
-            }
-
-            .container{
-                padding-top: 200px;
-            }
-        }
-
-        @media only screen and (max-width: 1024px) {
-            .logo{
-                margin-left: 5%;
-            }
-        }
-
-    </style>
-
+    
     <body>
 
         <video id="background-video" autoplay loop muted playsinline poster="images/poster.jpg">
@@ -152,10 +52,10 @@
             </nav>
         </header>
         
-        <div class="container">
-            <div class="card2">
-                <h1>Contact Me</h1>
-                <label>Any questions or enquiries?</label>
+        <div class="container-Contact">
+            <div class="card2-Contact">
+                <h1 class="contacth1">Contact Me</h1>
+                <label class="contactSubHeader">Any questions or enquiries?</label>
                 <p>This is a paragraph that hopefully does something it's suppose to do
                     This is a paragraph that hopefully does something it's suppose to do 
                     This is a paragraph that hopefully does something it's suppose to do 
@@ -172,7 +72,7 @@
                 </div>
             </div>
 
-            <form class="card">
+            <form class="card-Contact">
                 <div class="input-row">
                     <input type="email" required placeholder="Email Address">
                     <input type="text" required placeholder="Name">
