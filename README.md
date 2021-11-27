@@ -49,11 +49,10 @@ Typewriting effect in index page
 - Comments for JS/HTML/CSS
 - Clean Up HTML & CSS files
 
-
 <b>Features :</b>
 - Custom scroll bar
 - Add more animated elements in Awards page
-- Fade in effect when scrolling (skills/awards)
+- Fade in effect when scrolling (skills/awards page)
 - Responsive contact me form
 - Skills project cards ; slide out text
 
