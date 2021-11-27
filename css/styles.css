@@ -672,6 +672,16 @@ textarea{
 
 }
 
+.card3-Contact{
+    display:flex; 
+    justify-content: space-around; 
+    margin-top: 30px;
+}
+
+.card3-Contact > a:hover{
+    transform: scale(1.1);
+}
+
 
 @media only screen and (max-width: 768px) {
     .card-Contact, .card2-Contact{
