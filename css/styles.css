@@ -663,7 +663,7 @@ textarea{
     display: flex;
     flex-flow: wrap row;
     padding-top: 100px;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .card-Contact{
