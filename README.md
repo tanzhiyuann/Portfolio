@@ -60,7 +60,6 @@ Typewriting effect in index page
 - ~~Fix media query for Awards page~~
 - Mobile parallax overflow (Samsung Fold)
 - Awards mask text hard to read
-- Common page margin
 
 <br>
 
