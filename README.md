@@ -69,8 +69,42 @@ Typewriting effect in index page
 - ~~Mobile parallax overflow [mobile] (awards page)~~
 - ~~Mask text hard to read (awards page)~~
 - ~~Parallax text appears on NAV menu [mobile] (awards page)~~
-
 <br>
+
+## Supported / Tested Devices & Browsers
+<b>Browsers</b>
+- Google Chrome
+- Microsoft Edge
+- Internet Explorer
+- TOR (The Onion Router) [JS Enabled]
+- IOS Safari
+
+<b>Tested Devices (Emulated on chrome)</b>
+- Galaxy Fold (Smallest Device)
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Duo
+- Nest Hub
+- Nest Hub Max
+
+<b>Tested Devices (Physical)</b>
+- iPhone 7
+- iPhone 11
+- iPad mini (1st Gen)
+- iPhone 12 mini
+
+<b>Supported Sizes (General)</b>
+- 280 x 653<br>
+-----To-----<br>
+- 1440 x 1080
 
 ## Status
 Still In Development 📝
