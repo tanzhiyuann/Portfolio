@@ -43,17 +43,18 @@ Typewriting effect in index page
 ## To Do 
 <b>General : </b>
 - Fix typos (index,awards,skill,contact page)
-- Change parallax text font (awards page)
+- ~~Change parallax text font (awards page)~~
+- Fix document structure (awards page)
+- Fix W3 validator errors + Clean up warnings 
+- Fix Jigsaw CSS validator error + clean up warnings
 
 - Add Footer (index,awards,skill page)
 - Replace placeholders (skill page)
 - ~~Replace placeholders (contact page)~~
-- Change parallax background image (awards page)
+- Change parallax background image [2018,2019] (awards page)
 
 - Comments for JS/HTML/CSS
-- Clean Up HTML & CSS files
-- Fix W3 validator errors + Clean up warnings 
-- Fix Jigsaw CSS validator error + clean up warnings
+- Final clean Up HTML & CSS files
 
 <b>Features :</b>
 - Custom scroll bar
