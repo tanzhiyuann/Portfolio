@@ -906,11 +906,13 @@ div:nth-child(4) .year{
 /* Only the image-cards on the right would "face" to left (usually there would be 2 image cards in 1 container (1 left[1], 1 right[2])) */
 .image-card:hover:nth-child(2){transform: rotateX(-20deg) rotateY(20deg) rotateZ(10deg);}
 
-
-.black-h1{
+/* Special (colour)-h2 for white background */
+.black-h2{
     color: black;
     margin-top: 0px; 
     margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 
