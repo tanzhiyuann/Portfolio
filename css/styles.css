@@ -861,7 +861,7 @@ textarea{
     display: grid;
     grid-template-columns: repeat(3,auto);
     justify-content: center;
-    align-items: middle;
+    align-items: center;
     place-items: center;
     min-height: 85vh;
 
@@ -1033,7 +1033,7 @@ section > div > .container:nth-child(3){
         text-align: center;
         align-content: center;
         flex-basis: 80%;
-        padding-bottom: 0px;
+        padding: 0px;
     }
 
     .image-card{
