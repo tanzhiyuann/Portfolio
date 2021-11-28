@@ -42,7 +42,7 @@ Typewriting effect in index page
 
 ## To Do 
 <b>General : </b>
-- Fix typos (index,awards,skill,contact page)
+- ~~Fix typos (index,awards,skill,contact page)~~
 - ~~Change parallax text font (awards page)~~
 - ~~Fix document structure (awards page)~~
 - ~~Fix Jigsaw CSS validator error + clean up warnings~~
