@@ -48,6 +48,7 @@ Typewriting effect in index page
 - Replace placeholders (contact page)
 - Change parallax background image (awards page)
 - Change parallax text font (awards page)
+
 - Comments for JS/HTML/CSS
 - Clean Up HTML & CSS files
 - Fix W3 validator errors + Clean up warnings 
@@ -55,7 +56,8 @@ Typewriting effect in index page
 
 <b>Features :</b>
 - Custom scroll bar
-- Add more animated elements in Awards page
+- Add more animated elements (Awards page)
+- Button to return to top (awards page)
 - Fade in effect when scrolling (skills/awards page)
 - Responsive contact me form (feedback after submit)
 - ~~Skills project cards ; slide out text~~
