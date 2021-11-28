@@ -43,12 +43,12 @@ Typewriting effect in index page
 ## To Do 
 <b>General : </b>
 - Fix typos (index,awards,skill,contact page)
-- Add Footer (index,awards,skill page)
-- Add Loading poster (index page)
-- Replace placeholders (skill page)
-- Replace placeholders (contact page)
-- Change parallax background image (awards page)
 - Change parallax text font (awards page)
+
+- Add Footer (index,awards,skill page)
+- Replace placeholders (skill page)
+- ~~Replace placeholders (contact page)~~
+- Change parallax background image (awards page)
 
 - Comments for JS/HTML/CSS
 - Clean Up HTML & CSS files
@@ -64,7 +64,7 @@ Typewriting effect in index page
 - ~~Skills project cards ; slide out text~~
 
 <b>Bugs :</b>
-- aboutimage disappears when tapped (aka "hover") [mobile] (index page)
+- aboutimage disappears when tapped (aka "hover") [iphone11] (index page)
 - ~~Fix media query for Awards page~~
 - ~~Mobile parallax overflow [mobile] (awards page)~~
 - ~~Mask text hard to read (awards page)~~
