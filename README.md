@@ -42,6 +42,7 @@ Typewriting effect in index page
 
 ## To Do 
 <b>General : </b>
+- Fix typos (index,awards,skill,contact page)
 - Add Footer (index,awards,skill page)
 - Add Loading poster (index page)
 - Replace placeholders (skill page)
