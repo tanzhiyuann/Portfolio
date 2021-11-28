@@ -579,6 +579,69 @@ label{
     height: auto;
 }
 
+/* C# Projects */
+.container:nth-child(3) > .card:nth-child(1) > .container >.carditemskills:nth-child(1){
+    background-image: url(../images/BG2.png);
+}
+.container:nth-child(3) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
+    background-image: url(../images/poster.jpg);
+}
+.container:nth-child(3) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
+    background-image: url(../images/BG3.jpg);
+}
+
+/* Python Projects */
+.container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(1){
+    background-image: url(../images/BG2.png);
+}
+.container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
+    background-image: url(../images/poster.jpg);
+}
+.container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
+    background-image: url(../images/BG3.jpg);
+}
+
+/* Misc. Projects */
+.container:nth-child(5) > .card:nth-child(1) > .container >.carditemskills:nth-child(1){
+    background-image: url(../images/BG2.png);
+}
+.container:nth-child(5) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
+    background-image: url(../images/poster.jpg);
+}
+.container:nth-child(5) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
+    background-image: url(../images/BG3.jpg);
+}
+
+.carditem-content{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    
+}
+
+.carditem-heading{
+    display: flex;
+    flex-basis: 100%;
+    margin: 0px;
+    font-size: 3vh;
+    margin-bottom: 10px;
+}
+
+#carditem-description{
+    display: none;
+    opacity: 0;
+    margin: 0px;
+    font-size: 1.8vh;
+}
+
+.carditemskills:hover > .carditem-content > #carditem-description{
+    display: block;
+    opacity: 100;
+    transition: opacity 1000ms linear;
+}
+
 /* FOR SMALL LAPTOPS */
 @media only screen and (max-width: 1072px) {
     .card-with-bars {
@@ -834,7 +897,7 @@ div:nth-child(4) .year{
     padding: 40px;
     flex-basis: 30%;
     background-color: transparent;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .image-card:hover{
