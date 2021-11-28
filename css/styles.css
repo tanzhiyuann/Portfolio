@@ -646,14 +646,14 @@ label{
     margin-bottom: 10px;
 }
 
-#carditem-description{
+.carditem-description{
     display: none;
     opacity: 0;
     margin: 0px;
     font-size: 1.8vh;
 }
 
-.carditemskills:hover > .carditem-content > #carditem-description{
+.carditemskills:hover > .carditem-content > .carditem-description{
     display: block;
     opacity: 100;
     transition: opacity 1000ms linear;
@@ -675,7 +675,7 @@ label{
     cursor: pointer;
 }
 
-#carditem-description>p{
+.carditem-description>p{
     margin-bottom: 10px;
     margin-top: 0px;
 }
@@ -702,7 +702,7 @@ label{
         margin-bottom: 2vh;
     }
 
-    #carditem-description{
+    .carditem-description{
         display: block;
         opacity: 100;
     }
@@ -821,7 +821,7 @@ textarea{
         padding-top: 200px;
     }
 
-    #carditem-description>p{
+    .carditem-description>p{
         font-size: 16px;
     }
 }
