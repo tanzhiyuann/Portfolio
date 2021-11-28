@@ -652,6 +652,27 @@ label{
     transition: opacity 1000ms linear;
 }
 
+.skills-button{
+    border-color: transparent;
+    border-radius: 5px;
+    padding:5px 10px;
+    background-color: rgb(230, 230, 230);
+    font-weight: 600;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.skills-button:hover{
+    border-color: rgb(0, 171, 250);
+    background-color: transparent;
+    color: rgb(0, 171, 250);
+    cursor: pointer;
+}
+
+#carditem-description>p{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
 /* FOR SMALL LAPTOPS */
 @media only screen and (max-width: 1072px) {
     .card-with-bars {
@@ -672,6 +693,11 @@ label{
         padding-right: 20px;
         flex-basis: 80%;
         margin-bottom: 2vh;
+    }
+
+    #carditem-description{
+        display: block;
+        opacity: 100;
     }
 
 }
