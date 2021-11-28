@@ -44,9 +44,9 @@ Typewriting effect in index page
 <b>General : </b>
 - Fix typos (index,awards,skill,contact page)
 - ~~Change parallax text font (awards page)~~
-- Fix document structure (awards page)
-- Fix W3 validator errors + Clean up warnings 
-- Fix Jigsaw CSS validator error + clean up warnings
+- ~~Fix document structure (awards page)~~
+- ~~Fix Jigsaw CSS validator error + clean up warnings~~
+- W3 validator clean up warnings (index page)
 
 - Add Footer (index,awards,skill page)
 - Replace placeholders (skill page)
