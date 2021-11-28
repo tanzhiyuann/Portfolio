@@ -50,6 +50,8 @@ Typewriting effect in index page
 - Change parallax text font (awards page)
 - Comments for JS/HTML/CSS
 - Clean Up HTML & CSS files
+- Fix W3 validator errors + Clean up warnings 
+- Fix Jigsaw CSS validator error + clean up warnings
 
 <b>Features :</b>
 - Custom scroll bar
