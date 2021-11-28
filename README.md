@@ -101,8 +101,8 @@ Typewriting effect in index page
 - iPad mini (1st Gen)
 - iPhone 12 mini
 
-<b>Supported Sizes (General)</b>
-- 280 x 653<br>
+<b>Supported Sizes (General) [Strong Support]</b>
+- 320 x 126<br>
 -----To-----<br>
 - 1440 x 1080
 
