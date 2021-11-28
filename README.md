@@ -7,11 +7,13 @@ Link to website : https://notaddison.github.io/Portfolio/
 <br>
 
 ## Table of Contents
-1. [Purpose Of Application](#Purpose-Of-Application)
-2. [Reasons for Designs](#Reasons-for-Designs)
-2. [Features](#Features)
-2. [To Do](#To-Do)
-2. [Status](#Status)
+- [ID - Assignment 1](#id---assignment-1)
+  - [Table of Contents](#table-of-contents)
+  - [Purpose Of Application](#purpose-of-application)
+  - [Reasons for Designs](#reasons-for-designs)
+  - [Features](#features)
+  - [To Do](#to-do)
+  - [Status](#status)
 
 <br>
 
@@ -54,15 +56,15 @@ Typewriting effect in index page
 - Custom scroll bar
 - Add more animated elements in Awards page
 - Fade in effect when scrolling (skills/awards page)
-- Responsive contact me form
-- Skills project cards ; slide out text
+- Responsive contact me form (feedback after submit)
+- ~~Skills project cards ; slide out text~~
 
 <b>Bugs :</b>
 - aboutimage disappears when tapped (aka "hover") [mobile] (index page)
 - ~~Fix media query for Awards page~~
 - Mobile parallax overflow [mobile] (awards page)
 - ~~Mask text hard to read (awards page)~~
-- Parallax text appears on NAV menu [mobile] (awards page)
+- ~~Parallax text appears on NAV menu [mobile] (awards page)~~
 
 <br>
 
