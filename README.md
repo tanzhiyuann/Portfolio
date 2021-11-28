@@ -21,7 +21,6 @@ Link to website : https://notaddison.github.io/Portfolio/
 <b>Intended user audience :</b> Adults looking for potential employees<br>
 <b>Intent & Purpose :</b> For them to consider me a good candidate and potentially hire me <br>
 <b>Intended user audience :</b> Working Adults 
-<b>Intended user audience :</b> Working Adults 
 
 <br>
 
@@ -62,7 +61,7 @@ Typewriting effect in index page
 <b>Bugs :</b>
 - aboutimage disappears when tapped (aka "hover") [mobile] (index page)
 - ~~Fix media query for Awards page~~
-- Mobile parallax overflow [mobile] (awards page)
+- ~~Mobile parallax overflow [mobile] (awards page)~~
 - ~~Mask text hard to read (awards page)~~
 - ~~Parallax text appears on NAV menu [mobile] (awards page)~~
 
