@@ -917,8 +917,8 @@ div:nth-child(4) .year{
 
 
 .year{
-    font-family: 'Montserrat';
-    font-weight: bold;
+    /* font-family: 'Montserrat';
+    font-weight: bold; */
 
     display: flex; 
     justify-content: center; 
