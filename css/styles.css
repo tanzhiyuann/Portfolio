@@ -1058,5 +1058,11 @@ section > div > .container:nth-child(3){
     .year{
         font-size: 55px;
     }
+
+    /* Stop animation for mobile */
+    .image-card:hover{
+        transition: none;
+        transform: none;
+    }
 }
 
