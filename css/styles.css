@@ -817,7 +817,7 @@ textarea{
     padding-top: 15vh;
 }
 
-.card-Contact{
+#card-Contact{
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -853,11 +853,11 @@ textarea{
 
 
 @media only screen and (max-width: 768px) {
-    .card-Contact, .card2-Contact{
+    #card-Contact, .card2-Contact{
         flex-basis: 100%;
     }
 
-    .card-Contact{
+    #card-Contact{
         margin-left: 4vw;
         margin-right: 4vw;
     }
