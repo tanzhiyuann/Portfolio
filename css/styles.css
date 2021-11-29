@@ -930,6 +930,7 @@ div:nth-child(4) .year{
     background-clip: border-box;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .text-card{
