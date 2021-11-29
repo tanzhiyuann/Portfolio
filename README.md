@@ -50,22 +50,22 @@ Typewriting effect in index page
 - W3 validator clean up warnings (index page)
 
 - Replace placeholders (skill page)
-- Rename styles.css to style.css  
+- ~~Rename styles.css to style.css~~ 
 - Add Footer (index,awards,skill page)
 
 - ~~Replace placeholders (contact page)~~
-- Change parallax background image [2018,2019] (awards page)
+- ~~Change parallax background image [2018,2019] (awards page)~~
 
 - Comments for JS/HTML/CSS
 - Final clean Up HTML & CSS files
 
 <b>Features :</b>
 - Custom scroll bar
-- Add more animated elements (Awards page)
 - Button to return to top (awards page)
 - Fade in effect when scrolling (skills/awards page)
 - Responsive contact me form (feedback after submit)
-- Javascript to change nav background to same colour as menu
+
+- Add more animated elements (Awards page)
 - ~~Skills project cards ; slide out text~~
 
 <b>Bugs :</b>
