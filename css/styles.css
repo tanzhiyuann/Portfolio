@@ -994,10 +994,11 @@ div:nth-child(4) .year{
     transition: all 0.2s ease-in-out;
 }
 
-.image-card:hover{
+.award-image:hover{
     transition: all 0.3s linear;
     transform: scale(1.1);
     transform: rotateX(20deg) rotateY(20deg) rotateZ(-10deg);
+    filter: drop-shadow(-50px 40px 10px #02070e2a);
 }
 
 section > div > .container:nth-child(1){
