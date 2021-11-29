@@ -459,6 +459,11 @@ label{
         margin-bottom: 20px;
     }
 
+    .aboutimage:hover{
+        transition: none;
+        transform: none;
+    }
+
 }
 
 /* Phone (GALAXY FOLD // EXTRA SMALL PHONES) */
