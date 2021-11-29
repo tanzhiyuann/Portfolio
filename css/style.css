@@ -1058,7 +1058,7 @@ section > div > .container:nth-child(3){
     }
 
     .year{
-        /* font-size: 55px; */
+        font-size: 55px;
     }
 
     /* Stop animation for mobile */
