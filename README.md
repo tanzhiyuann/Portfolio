@@ -47,6 +47,8 @@ Typewriting effect in index page
 - ~~Change parallax text font (awards page)~~
 - ~~Fix document structure (awards page)~~
 - ~~Fix Jigsaw CSS validator error + clean up warnings~~
+- Update about me text (index page)
+- Update Merit award description (awards page)
 - W3 validator clean up warnings (index page)
 
 - Replace placeholders (skill page)
@@ -62,8 +64,8 @@ Typewriting effect in index page
 <b>Features :</b>
 - Custom scroll bar
 - Button to return to top (awards page)
-- Fade in effect when scrolling (skills/awards page)
-- Responsive contact me form (feedback after submit)
+- ~~Fade in effect when scrolling (awards page)~~
+- ~~Responsive contact me form (feedback after submit)~~
 
 - Add more animated elements (Awards page)
 - ~~Skills project cards ; slide out text~~
