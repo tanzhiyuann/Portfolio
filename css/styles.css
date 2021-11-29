@@ -285,7 +285,7 @@ label{
     min-height: 80vh;
 }
 
-.landing-fade{
+.landing-hint{
     display: flex;
     flex-basis: 100%;
     min-height: 5vh;
@@ -295,8 +295,9 @@ label{
     margin-right: 30px;
 }
 
-.landing-fade > img{
+.landing-hint > img{
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .logoflex{
