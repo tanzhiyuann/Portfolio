@@ -13,6 +13,7 @@ Link to website : https://notaddison.github.io/Portfolio/
   - [Reasons for Designs](#reasons-for-designs)
   - [Features](#features)
   - [To Do](#to-do)
+  - [Supported / Tested Devices & Browsers](#supported--tested-devices--browsers)
   - [Status](#status)
 
 <br>
@@ -48,8 +49,10 @@ Typewriting effect in index page
 - ~~Fix Jigsaw CSS validator error + clean up warnings~~
 - W3 validator clean up warnings (index page)
 
-- Add Footer (index,awards,skill page)
 - Replace placeholders (skill page)
+- Rename styles.css to style.css  
+- Add Footer (index,awards,skill page)
+
 - ~~Replace placeholders (contact page)~~
 - Change parallax background image [2018,2019] (awards page)
 
@@ -70,6 +73,7 @@ Typewriting effect in index page
 - ~~Mobile parallax overflow [mobile] (awards page)~~
 - ~~Mask text hard to read (awards page)~~
 - ~~Parallax text appears on NAV menu [mobile] (awards page)~~
+- Skill year text not loading on iOS 14 (physical iphone 11)
 <br>
 
 ## Supported / Tested Devices & Browsers
