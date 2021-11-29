@@ -285,6 +285,20 @@ label{
     min-height: 80vh;
 }
 
+.landing-fade{
+    display: flex;
+    flex-basis: 100%;
+    min-height: 5vh;
+    justify-content: flex-end;
+    background-color: transparent;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.landing-fade > img{
+    opacity: 0.5;
+}
+
 .logoflex{
     margin-top: 8%;
     display: flex;
@@ -362,9 +376,12 @@ label{
 
 .aboutme{
     min-height: 100vh;
-    background-color: #1f1f1f;
     color: white;
-    background: linear-gradient(to bottom, transparent, #1f1f1f 4%);
+
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #061427 0%, #1a1c1d 74%);
+
+    /* background: linear-gradient(to bottom, transparent, #1a1c1d 5%); */
 }
 
 
@@ -377,7 +394,7 @@ label{
 
     flex-basis: 40%;
     border-radius: 20px;
-    background-color: #1a1a1a59;
+    background-color: transparent;
 }
 
 .aboutimage{
@@ -397,7 +414,7 @@ label{
 
 
 /* Phone (Iphone 11, Iphone X, Iphone 5) */
-@media only screen and (max-width: 456px) {
+@media only screen and (max-width: 768px) {
     nav > div > label{
     color: white;
     margin-left: 10px;
@@ -433,6 +450,15 @@ label{
     .logoflex > img{
         width: 200px;
     }
+
+    .landing-fade{
+        justify-content: center;
+    }
+
+    .landing{
+        margin-bottom: 20px;
+    }
+
 }
 
 /* Phone (GALAXY FOLD // EXTRA SMALL PHONES) */
@@ -609,7 +635,7 @@ label{
 
 /* Python Projects */
 .container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(1){
-    background-image: url(../images/BG2.png);
+    background-image: url(../images/BG2.jpg);
     background-blend-mode: soft-light;
 }
 .container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
@@ -623,7 +649,8 @@ label{
 
 /* Misc. Projects */
 .container:nth-child(5) > .card:nth-child(1) > .container >.carditemskills:nth-child(1){
-    background-image: url(../images/BG2.png);
+    background-image: url(../images/BG4.jpg);
+    background-size: cover;
     background-blend-mode: soft-light;
 }
 .container:nth-child(5) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
