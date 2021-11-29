@@ -1049,6 +1049,8 @@ section > div > .container:nth-child(3){
         margin-top: 5%;
         border-radius: 20px;
         min-height: 80vh;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .parallax-h1{
