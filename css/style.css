@@ -890,14 +890,14 @@ div:nth-child(2) .year{
 }
 
 div:nth-child(3) .year{
-    background-image: url(../images/BG2.png);
+    background-image: url(../images/BG2.jpg);
     background-position: 500px -900px;
     background-size: cover;
     background-repeat: repeat;
 }
 
 div:nth-child(4) .year{
-    background-image: url(../images/BG1.png);
+    background-image: url(../images/BG1.jpg);
     background-position: 500px -1000px;
     background-size: cover;
     background-repeat: repeat;
