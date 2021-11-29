@@ -80,7 +80,6 @@ Typewriting effect in index page
 <b>Browsers</b>
 - Google Chrome
 - Microsoft Edge
-- Internet Explorer
 - TOR (The Onion Router) [JS Enabled]
 - IOS Safari
 
