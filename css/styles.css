@@ -38,6 +38,15 @@ html{
     scroll-behavior: smooth;
 }
 
+.fade-in{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.fade-in.appear{
+    opacity: 1;
+}
+
 /* <p>/<a> font */
 p, a{
     font-family: 'Source Sans Pro', sans-serif;
