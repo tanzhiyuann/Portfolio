@@ -646,8 +646,11 @@ label{
     background-blend-mode: soft-light;
 }
 .container:nth-child(3) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
-    background-image: url(../images/BG3.jpg);
+    background-image: url(../images/empty-folder-finder.gif);
     background-blend-mode: soft-light;
+    background-size: cover;
+    background-position-x: -40px;
+    background-repeat: no-repeat;
 }
 
 /* Python Projects */
@@ -660,8 +663,9 @@ label{
     background-blend-mode: soft-light;
 }
 .container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
-    background-image: url(../images/BG3.jpg);
+    background-image: url(../images/computer-vision.jpg);
     background-blend-mode: soft-light;
+    background-size:cover;
 }
 
 /* Misc. Projects */
