@@ -65,6 +65,7 @@ Typewriting effect in index page
 - Button to return to top (awards page)
 - Fade in effect when scrolling (skills/awards page)
 - Responsive contact me form (feedback after submit)
+- Javascript to change nav background to same colour as menu
 - ~~Skills project cards ; slide out text~~
 
 <b>Bugs :</b>
