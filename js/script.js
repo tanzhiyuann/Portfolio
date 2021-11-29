@@ -1,5 +1,5 @@
 
-// >> NAVIGATION (NAV) BAR <<
+// >> ---------- NAVIGATION (NAV) BAR ---------- <<
 document.addEventListener("scroll",function(){
     const navbar = document.querySelector(".navbar");
     const navbarHeight = 20;
@@ -26,6 +26,27 @@ burgor.addEventListener("click", function(){
         console.log('menu open');
         menu.classList.add("open");
     }
-    
-    
+})
+
+// >> ---------- Fade Scroll ---------- <<
+const fade = document.querySelectorAll(".fade-in");
+const FadeThreshold = {
+    threshold: 0.3 //Only appear if 1/3 of the entity is visible
+};
+
+const scrollFadeIn = new IntersectionObserver(function(entries,scrollFadeIn){
+    entries.forEach(function(entity){
+        if (!entity.isIntersecting){
+            return;
+        }
+        else{
+            entity.target.classList.add("appear");
+            scrollFadeIn.unobserve(entity.target)
+        }
+    })
+}, FadeThreshold);
+
+// runs the function and check if object is in view
+fade.forEach(function(fade){
+    scrollFadeIn.observe(fade);
 })
