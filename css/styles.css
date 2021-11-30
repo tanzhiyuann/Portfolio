@@ -72,6 +72,18 @@ h2,h3{
     font-size: 20px;
 }
 
+/* >>> ---------- Custom Scrollbar ----------<<<*/
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: transparent;  
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.658);
+    transition: all 1s ease-in-out;
+    background-blend-mode: darken;
+    border-radius: 5px;
+}
 
 /*---------------->>> Flexbox fallbacks (defaults) <<<---------------- */
 
