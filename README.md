@@ -63,7 +63,7 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 
 - Replace placeholders (skill page)
 - ~~Rename styles.css to style.css~~ 
-- Add Footer (index,awards,skill page)
+- ~~Add Footer (index,awards,skill page)~~
 
 - ~~Replace placeholders (contact page)~~
 - ~~Change parallax background image [2018,2019] (awards page)~~
@@ -128,14 +128,14 @@ Still In Development 📝
 
 
 # References & Credits
-## Assets (icons):
+### Assets (icons):
 >Social Media Icons : https://icons8.com/
 
 >Videos : (Extracted from steam wallpaper engine workshop)
 
 >Colour Gradients : https://www.eggradients.com/
 
-## Tutorials used :
+### Tutorials used :
 >Typewriter Effect : https://www.youtube.com/watch?v=mULM6KcF_mo
 
 >Hamburgur Menu : https://www.youtube.com/watch?v=EW65Ll_9ioE
