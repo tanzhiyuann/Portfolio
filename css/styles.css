@@ -50,7 +50,7 @@ html{
 /* <p>/<a> font */
 p, a{
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-weight: 300;
 }
