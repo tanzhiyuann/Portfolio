@@ -31,7 +31,7 @@ burgor.addEventListener("click", function(){
 // >> ---------- Fade Scroll ---------- <<
 const fade = document.querySelectorAll(".fade-in");
 const FadeThreshold = {
-    threshold: 0.3 //Only appear if 1/3 of the entity is visible
+    threshold: 0.2 //Only appear if 20% of the entity is visible
 };
 
 const scrollFadeIn = new IntersectionObserver(function(entries,scrollFadeIn){
