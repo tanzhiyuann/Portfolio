@@ -302,54 +302,28 @@ footer{
     height: 90px;
 }
 
-.logo-and-sitemap{
-    display: flex;
-    flex-basis: 20%;
-    align-items: center;
-    margin: 5px;
-    justify-content: center;
-}
-
-.footer-logo{
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.footer-logo>a>img{
-    height: 3.5em;
-}
-
-.sitemap{
-    display: flex;
-    flex-flow: row wrap;
-    flex-basis: 100%;
-    justify-content: space-evenly;
-}
-
 .footer-socials{
     display: flex;
     flex-flow: column;
-    flex-basis: 30%;
+    flex-basis: 50%;
     justify-content: center;
-    margin-left: 10%;
 }
 
 .footer-contact-images{
     display: flex;
     flex-flow: row wrap;
-    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .footer-contact-images > a > img{
     height: 30px;
-    margin-right: 30px;
 }
 
 .footer-line{
     z-index: 2;
     border: solid;
     border-color: rgb(31, 31, 31);
-    width: 55%;
+    width: 10%;
     border-bottom-width: 1px;
     border-radius: 10px;
     margin-bottom: 5px;
@@ -365,7 +339,7 @@ footer{
     display: flex;
     flex-flow: column;
     align-items: flex-end;
-    flex-basis: 39%;
+    flex-basis: 50%;
 }
 
 .footer-a{
@@ -379,18 +353,15 @@ footer{
 
 @media only screen and (max-width: 768px) {
     footer{
-        height: 500px;
+        height: 300px;
     }
-    .logo-and-sitemap, .footer-socials,.footer-legal{
+    .footer-socials,.footer-legal{
         flex-basis: 100%;
         align-content: center;
         justify-content: center;
         align-items: center;
     }
 
-    .footer-logo{
-        align-content: center;
-    }
 
     .footer-socials{
         margin:0px;
@@ -513,7 +484,7 @@ footer{
 }
 
 
-.abouttext{
+#abouttext{
     display: flex;
     flex-direction: column;
     
@@ -523,6 +494,14 @@ footer{
     flex-basis: 40%;
     border-radius: 20px;
     background-color: transparent;
+}
+
+#abouttext>h1{
+    font-size: 4em;
+}
+
+#abouttext>p{
+    font-size: 1.05em;
 }
 
 .aboutimage{
@@ -555,16 +534,20 @@ footer{
         margin-top: 80px;
     }
 
-    .abouttext{
-    display: flex;
-    flex-direction: column;
-    
-    padding: 20px;
-    padding-bottom: 50px;
+    #abouttext{
+        display: flex;
+        flex-direction: column;
+        
+        padding: 20px;
+        padding-bottom: 50px;
 
-    flex-basis: 80%;
-    border-radius: 20px;
-    background-color: #1a1a1a59;
+        flex-basis: 80%;
+        border-radius: 20px;
+        background-color: #1a1a1a59;
+    }
+
+    #abouttext>h1{
+        font-size: 3em;
     }
 
     .aboutimage{
@@ -607,7 +590,7 @@ footer{
 }
 
 @media only screen and (max-width: 1024px) {
-    .abouttext{
+    #abouttext{
         display: flex;
         flex-direction: column;
         
