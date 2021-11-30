@@ -291,6 +291,121 @@ label{
     }
 }
 
+/* >>> ---------- Footer ----------<<<*/
+footer{
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: row wrap;
+    padding:10px 5% 10px 5% ;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #1f1f1f 0%, #0c1218 74%);
+    height: 90px;
+}
+
+.logo-and-sitemap{
+    display: flex;
+    flex-basis: 20%;
+    align-items: center;
+    margin: 5px;
+    justify-content: center;
+}
+
+.footer-logo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-logo>a>img{
+    height: 3.5em;
+}
+
+.sitemap{
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+}
+
+.footer-socials{
+    display: flex;
+    flex-flow: column;
+    flex-basis: 30%;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.footer-contact-images{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.footer-contact-images > a > img{
+    height: 30px;
+    margin-right: 30px;
+}
+
+.footer-line{
+    z-index: 2;
+    border: solid;
+    border-color: rgb(31, 31, 31);
+    width: 55%;
+    border-bottom-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    height: 0px;
+}
+
+.footer-header{
+    margin: 0px;
+}
+
+.footer-legal{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    flex-basis: 39%;
+}
+
+.footer-a{
+    text-decoration: none;
+}
+
+.footer-a:hover{
+    font-weight: 600;
+    color :rgb(96, 104, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    footer{
+        height: 500px;
+    }
+    .logo-and-sitemap, .footer-socials,.footer-legal{
+        flex-basis: 100%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo{
+        align-content: center;
+    }
+
+    .footer-socials{
+        margin:0px;
+    }
+
+    .footer-contact-images{
+        align-content: space-between;
+    }
+
+    .footer-contact-images > a > img{
+        margin: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
 
 /* >>> ---------- index.html ----------<<<*/
 .landing{
