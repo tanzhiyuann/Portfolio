@@ -133,6 +133,8 @@ Still In Development 📝
 
 >Videos : (Extracted from steam wallpaper engine workshop)
 
+>Colour Gradients : https://www.eggradients.com/
+
 ## Tutorials used :
 >Typewriter Effect : https://www.youtube.com/watch?v=mULM6KcF_mo
 
