@@ -1,10 +1,10 @@
 // ONLY USED IN MAIN(INDEX) PAGE thus,
 // Cannot put in (main) script.js as it would be called everytime
 
-console.log('loaded')
-const text = document.getElementById('typewriter')
-const phrases  = ['Full Stack Developer','Music Producer','Digital Artist (3D)','Video/Photo Editor','Human?']
-const cursor = document.getElementById('blinkingCursor')
+console.log('loaded');
+const text = document.getElementById('typewriter');
+const phrases  = ['Full Stack Developer','Music Producer','Digital Artist (3D)','Video/Photo Editor','Human?'];
+const cursor = document.getElementById('blinkingCursor');
 let x = 0;
 let y = 0;
 let typed = [];
@@ -43,7 +43,7 @@ function typewriter(){
             x++; //Moves to next word in phrases array
             
             if (x === phrases.length){
-                x = 0
+                x = 0;
             }
         }
     }
@@ -55,7 +55,7 @@ function typewriter(){
         cursor.style.display = 'none';
     }
 
-    setTimeout(typewriter, time)
+    setTimeout(typewriter, time);
 }
 
-typewriter()
+typewriter();
