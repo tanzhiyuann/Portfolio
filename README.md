@@ -147,3 +147,5 @@ Still In Development 📝
 >Fade in on scroll : https://www.youtube.com/watch?v=huVJW23JHKQ
 
 >Navigation Bar & Progress bar : https://www.youtube.com/watch?v=tcskp-ncN0I
+
+>Custom Scrollbar : https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
