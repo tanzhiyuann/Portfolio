@@ -72,7 +72,7 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 - Final clean Up HTML & CSS files
 
 <b>Features :</b>
-- Custom scroll bar
+- ~~Custom scroll bar~~
 - Button to return to top (awards page)
 - ~~Fade in effect when scrolling (skills/awards page)~~
 - ~~Responsive contact me form (feedback after submit)~~
