@@ -6,7 +6,7 @@ Interactive Development Assignment 1 (Personal Portfolio) <br>
 Link to website : https://notaddison.github.io/Portfolio/
 <br>
 
-## Table of Contents
+# Table of Contents
 - [ID - Assignment 1](#id---assignment-1)
   - [Table of Contents](#table-of-contents)
   - [Purpose Of Application](#purpose-of-application)
@@ -18,7 +18,7 @@ Link to website : https://notaddison.github.io/Portfolio/
 
 <br>
 
-## Purpose Of Application
+# Purpose Of Application
 <b>Intended user audience :</b> Adults looking for potential employees<br>
 <b>Intent & Purpose :</b> For them to consider me a good candidate and potentially hire me <br>
 <b>Intended user audience :</b> Working Adults 
@@ -26,8 +26,8 @@ Link to website : https://notaddison.github.io/Portfolio/
 <br>
 
 
-## Reasons for Designs
-> A clean, simple and easy website to navigate website. <br>
+# Reasons for Designs
+>A clean, simple and easy website to navigate website. <br>
 I went with a primarily <b>dark theme</b> as if the audience is viewing in a dark environment, it would be less painful on their eyes then being "flash banged" by a bright white theme.
 
 >However, for my achievement page, I went with a white Design as I wanted the user to be "awake" when viewing my achievements and breakout from the mundane and repetitive dark theme. <br>
@@ -35,13 +35,23 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 
 <br>
 
-## Features
-Interactive images (About Me picture in index, Awards & skills page)<br>
-Typewriting effect in index page
+# Features
+- Sticky Navigation bar
+  > Users would not have to scroll all the way to the top to access the navigation bar, reducing the hassle to scroll to the top and making the webpage easier to navigate.
+- Interactive images (animation on hover)<br>
+  > Makes website feel more interactive and less boring when navigating (dekstop).
+- Typewriting effect in index page
+  > Makes website feel more professional and provides a visually appealing aesthetic.
+- Fade-in on scroll
+  > Makes the website feels "smoother" and shows responsiveness.
+- Skills project cards (text on hover)
+  > Helps to clean up space to make the skills page look cleaner and not too cluttered by revealing relevant text.
+- Awards image 3D effect on hover
+  > Drop shadow helps to make the images feel like that they are "popping out" from the document background. This makes it more interesting and helps to keep the page unique and less mundane.
 
 <br>
 
-## To Do 
+# To Do 
 <b>General : </b>
 - ~~Fix typos (index,awards,skill,contact page)~~
 - ~~Change parallax text font (awards page)~~
@@ -79,7 +89,7 @@ Typewriting effect in index page
 - Skill year text not loading on iOS 14 (physical iphone 11)
 <br>
 
-## Supported / Tested Devices & Browsers
+# Supported / Tested Devices & Browsers
 <b>Browsers</b>
 - Google Chrome
 - Microsoft Edge
@@ -113,8 +123,25 @@ Typewriting effect in index page
 -----To-----<br>
 - 1440 x 1080
 
-## Status
+# Status
 Still In Development 📝
 
 
-## References & Credits
+# References & Credits
+## Assets (icons):
+>Social Media Icons : https://icons8.com/
+
+>Videos : (Extracted from steam wallpaper engine workshop)
+
+## Tutorials used :
+>Typewriter Effect : https://www.youtube.com/watch?v=mULM6KcF_mo
+
+>Hamburgur Menu : https://www.youtube.com/watch?v=EW65Ll_9ioE
+
+>Text Mask : https://www.youtube.com/watch?v=8eAWHc34MT0
+
+>Card Slide Out Text : https://www.youtube.com/watch?v=5DEq5cWNYt8
+
+>Fade in on scroll : https://www.youtube.com/watch?v=huVJW23JHKQ
+
+>Navigation Bar & Progress bar : https://www.youtube.com/watch?v=tcskp-ncN0I
