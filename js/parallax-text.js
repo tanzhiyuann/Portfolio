@@ -1,6 +1,6 @@
 // Parallax Text Effect for awards.html page
 window.addEventListener("scroll",function(e){
-    const word = document.querySelectorAll(".para-scroll")
+    const word = document.querySelectorAll(".para-scroll");
     var exit = false;
     
     //Stops scrolling after word is not visible. (Prevents Overflow)
@@ -16,8 +16,8 @@ window.addEventListener("scroll",function(e){
     if (exit === false){
         for (i; i < length; i++){
         var pos = window.pageYOffset * word[i].dataset.rate;
-        word[i].style.transform = 'translate3d('+pos+'%,0px,0px)'
+        word[i].style.transform = 'translate3d('+pos+'%,0px,0px)';
     }
 
     }
-})
+});

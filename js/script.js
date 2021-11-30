@@ -11,13 +11,13 @@ document.addEventListener("scroll",function(){
 });
 
 // >> NAVIGATION (NAV) BAR [MOBILE] <<
-console.log('loaded')
+console.log('loaded');
 var burgor = document.getElementById("hamburger");
 var menu = document.querySelector(".menu");
 let i = 0;
 burgor.addEventListener("click", function(){
     
-    i++ // if clicked once, number is odd thus, menu is open. <<
+    i++; // if clicked once, number is odd thus, menu is open. <<
     if (i%2 === 0){
         console.log('menu closed');
         menu.classList.remove("open");
@@ -26,7 +26,7 @@ burgor.addEventListener("click", function(){
         console.log('menu open');
         menu.classList.add("open");
     }
-})
+});
 
 // >> ---------- Fade Scroll ---------- <<
 const fade = document.querySelectorAll(".fade-in");
@@ -41,12 +41,12 @@ const scrollFadeIn = new IntersectionObserver(function(entries,scrollFadeIn){
         }
         else{
             entity.target.classList.add("appear");
-            scrollFadeIn.unobserve(entity.target)
+            scrollFadeIn.unobserve(entity.target);
         }
-    })
+    });
 }, FadeThreshold);
 
 // runs the function and check if object is in view
 fade.forEach(function(fade){
     scrollFadeIn.observe(fade);
-})
+});
