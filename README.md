@@ -47,8 +47,8 @@ Typewriting effect in index page
 - ~~Change parallax text font (awards page)~~
 - ~~Fix document structure (awards page)~~
 - ~~Fix Jigsaw CSS validator error + clean up warnings~~
-- Update about me text (index page)
-- Update Merit award description (awards page)
+- ~~Update about me text (index page)~~
+- ~~Update Merit award description (awards page)~~
 - W3 validator clean up warnings (index page)
 
 - Replace placeholders (skill page)
@@ -115,3 +115,6 @@ Typewriting effect in index page
 
 ## Status
 Still In Development 📝
+
+
+## References & Credits
