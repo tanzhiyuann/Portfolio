@@ -632,6 +632,11 @@ footer{
 }
 
 /* >>> ---------- skills.html ----------<<<*/
+.skills-body{
+    background-color: #242424;
+    background-image: linear-gradient(to bottom, #161616 0%, #1f1f1f 74%);
+}
+
 .prg-row{
     display: flex;
     align-items: center;
