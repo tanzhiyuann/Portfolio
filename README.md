@@ -77,7 +77,7 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 - ~~Fade in effect when scrolling (skills/awards page)~~
 - ~~Responsive contact me form (feedback after submit)~~
 
-- Add more animated elements (Awards page)
+- ~~Add more animated elements (Awards page)~~
 - ~~Skills project cards ; slide out text~~
 
 <b>Bugs :</b>
