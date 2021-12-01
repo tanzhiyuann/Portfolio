@@ -762,7 +762,7 @@ footer{
     background-size: cover;
 }
 .container:nth-child(3) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
-    background-image: url(../images/poster.jpg);
+    background-image: url(../images/tictactoe.gif);
     background-blend-mode: soft-light;
 }
 .container:nth-child(3) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
@@ -775,31 +775,33 @@ footer{
 
 /* Python Projects */
 .container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(1){
-    background-image: url(../images/BG2.jpg);
+    background-image: url(../images/random-math-question-generator.gif);
     background-blend-mode: soft-light;
 }
 .container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
-    background-image: url(../images/poster.jpg);
+    background-image: url(../images/city-building-game.gif);
+    background-size: cover;
     background-blend-mode: soft-light;
 }
 .container:nth-child(4) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
-    background-image: url(../images/computer-vision.jpg);
+    background-image: url(../images/computer-vision.gif);
     background-blend-mode: soft-light;
     background-size:cover;
 }
 
 /* Misc. Projects */
 .container:nth-child(5) > .card:nth-child(1) > .container >.carditemskills:nth-child(1){
-    background-image: url(../images/BG4.jpg);
+    background-image: url(../images/music.gif);
     background-size: cover;
     background-blend-mode: soft-light;
 }
 .container:nth-child(5) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
-    background-image: url(../images/poster.jpg);
+    background-image: url(../images/video-photo-editing.gif);
     background-blend-mode: soft-light;
 }
 .container:nth-child(5) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
-    background-image: url(../images/BG3.jpg);
+    background-image: url(../images/3d-modeling.gif);
+    background-size: cover;
     background-blend-mode: soft-light;
 }
 
