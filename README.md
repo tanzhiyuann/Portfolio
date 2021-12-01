@@ -61,7 +61,7 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 - ~~Update Merit award description (awards page)~~
 - ~~W3 validator clean up warnings (index page)~~
 
-- Replace placeholders (skill page)
+- ~~Replace placeholders (skill page)~~
 - ~~Rename styles.css to style.css~~ 
 - ~~Add Footer (index,awards,skill page)~~
 
