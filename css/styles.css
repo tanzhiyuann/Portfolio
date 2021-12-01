@@ -906,29 +906,45 @@ footer{
     justify-content: space-around;
 }
 
+.input-row:nth-child(4){
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.534);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.452);
+    font-weight: 100;
+}
+
 input{
     height:40px;
+    font-family: 'Quicksand', sans-serif;
     border-radius: 8px;
     border-color: transparent;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 800;
     width: 40.5%;
-    background-color: rgba(95, 95, 95, 0.137);
-    color: rgb(26, 26, 26);
+    background-color: rgba(95, 95, 95, 0.274);
+    color: rgb(253, 253, 253);
     padding: 5px;
 }
 
 textarea{
     height:40px;
+    font-family: 'Quicksand', sans-serif;
     border-radius: 4px;
-    border-color: transparent;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
     width: 88%;
     height: 250px;
-    background-color: rgba(95, 95, 95, 0.137);
-    color: rgb(41, 41, 41);
+    background-color: rgba(95, 95, 95, 0.274);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
     padding: 10px;
+}
+
+textarea:hover,input:hover{
+    border-color: rgb(71, 166, 255);
 }
 
 .submitbutton{
@@ -937,11 +953,18 @@ textarea{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     border: 5px;
-    background-color: rgb(45, 45, 45);
+    background-color: rgba(255, 255, 255, 0.048);
     color:white;
-    width: 60%;
+    width: 30%;
     height: 4vh;
     cursor:pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.submitbutton:hover{
+    background-color: rgb(221, 221, 221);
+    color: rgb(27, 27, 27);
+    transition: all 0.1s ease-in-out;
 }
 
 .container-Contact{
@@ -961,9 +984,7 @@ textarea{
     border-radius: 20px;
     height: 500px;
     justify-content: center;
-    background-color: #d9d9d9;
-    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
-
+    background-color: transparent;
 }
 
 .card2-Contact{
