@@ -764,13 +764,12 @@ footer{
 .container:nth-child(3) > .card:nth-child(1) > .container >.carditemskills:nth-child(2){
     background-image: url(../images/tictactoe.gif);
     background-blend-mode: soft-light;
+    background-size: cover;
 }
 .container:nth-child(3) > .card:nth-child(1) > .container >.carditemskills:nth-child(3){
     background-image: url(../images/empty-folder-finder.gif);
     background-blend-mode: soft-light;
     background-size: cover;
-    background-position-x: -40px;
-    background-repeat: no-repeat;
 }
 
 /* Python Projects */
@@ -1009,13 +1008,15 @@ textarea:hover,input:hover{
 
 
 @media only screen and (max-width: 768px) {
-    #card-Contact, .card2-Contact{
-        flex-basis: 100%;
+    .card2-Contact{
+        flex-basis: 80%;
     }
 
     #card-Contact{
+        flex-basis: 100%;
         margin-left: 4vw;
         margin-right: 4vw;
+        padding: 0px;
     }
 
     .container-Contact{
