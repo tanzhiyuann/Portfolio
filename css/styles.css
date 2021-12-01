@@ -318,7 +318,7 @@ footer{
 .footer-socials{
     display: flex;
     flex-flow: column;
-    flex-basis: 50%;
+    flex-basis: 25%;
     justify-content: center;
 }
 
@@ -352,7 +352,7 @@ footer{
     display: flex;
     flex-flow: column;
     align-items: flex-end;
-    flex-basis: 50%;
+    flex-basis: 75%;
 }
 
 .footer-a{
@@ -978,7 +978,7 @@ textarea{
 
 .card3-Contact{
     display:flex; 
-    justify-content: space-around; 
+    justify-content: space-between; 
     margin-top: 30px;
 }
 
