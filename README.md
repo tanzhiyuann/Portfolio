@@ -59,7 +59,7 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 - ~~Fix Jigsaw CSS validator error + clean up warnings~~
 - ~~Update about me text (index page)~~
 - ~~Update Merit award description (awards page)~~
-- W3 validator clean up warnings (index page)
+- ~~W3 validator clean up warnings (index page)~~
 
 - Replace placeholders (skill page)
 - ~~Rename styles.css to style.css~~ 
@@ -86,7 +86,7 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 - ~~Mobile parallax overflow [mobile] (awards page)~~
 - ~~Mask text hard to read (awards page)~~
 - ~~Parallax text appears on NAV menu [mobile] (awards page)~~
-- Skill year text not loading on iOS 14 (physical iphone 11)
+- Skill year text not loading on iOS 14 (physical iphone 11) [works on android??]
 <br>
 
 # Supported / Tested Devices & Browsers
