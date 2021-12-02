@@ -39,10 +39,8 @@ I want them to achieve this by being able to navigate through the website with e
 
 ### Process : <br>
 1. MS Paint ([Initial Low-Fidelity](https://drive.google.com/file/d/1ySl413qqJpJu97WLOT2eKxpQiHZXQr1M/view?usp=sharing)) - 13/11/21 <b>(OUTDATED)</b>
-2. Adobe XD ([High-Fidelity](https://drive.google.com/file/d/19HDx6efhRaXQFoKXmAss_VgtxEuuY9yD/view?usp=sharing)) - 3/12/21 <b>(UPDATED)</b><br>
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+2. Adobe XD ([High-Fidelity](https://xd.adobe.com/view/961cfa49-90dc-4e72-86d8-00804ce37e64-c34f/)) - 3/12/21 <b>(UPDATED)</b><br>
+
 
 ## Features (Functionality & Aesthetics)
 
@@ -79,7 +77,7 @@ Languages, framework, libraries & tools
     - The project used VS Studio (text editor) to code in HTML,CSS & JS
 - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
   - Used to make the assets and images
-- [Adobe XD]()
+- [Adobe XD](https://www.adobe.com/sg/products/xd.html)
   - Used to create the wireframe of the website
 - [Normalize CSS](https://necolas.github.io/normalize.css/)
   - An external CSS to make browsers render elements more consistently
