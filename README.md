@@ -20,8 +20,8 @@ Link to website : https://notaddison.github.io/Portfolio/
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
     - [Screenshots](#screenshots)
-      - [Desktop](#desktop)
-      - [Phone](#phone)
+      - [Desktop Preview](#desktop-preview)
+      - [Phone Preview](#phone-preview)
     - [Supported Devices](#supported-devices)
     - [Test Case(s)](#test-cases)
     - [Bug(s)](#bugs)
@@ -91,13 +91,13 @@ Languages, framework, libraries & tools
 
 ### Screenshots
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-#### Desktop
+#### Desktop Preview
 ![index.html Desktop](images/Web-Preview/index-page-preview.png)
 ![awards.html Desktop](images/Web-Preview/awards-page-preview.png)
 ![skills.html Desktop](images/Web-Preview/skills-page-preview.png)
 ![contact.html Desktop](images/Web-Preview/contact-page-preview.png)
 
-#### Phone
+#### Phone Preview
 <b>(Unable to load as preview as it makes the README.md messy)</b>
 - [index.html Mobile](images/Web-Preview/index-page-preview-mobile.png)
 - [awards.html Mobile](images/Web-Preview/awards-page-preview-mobile.png)
