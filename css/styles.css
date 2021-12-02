@@ -279,6 +279,7 @@ label{
         text-align: center;
         z-index: 100;
         transition: all 0.3s ease-in-out;
+        border-radius: 10px;
     }
 
     .navbar > .nav-container > .menu > li{
@@ -289,14 +290,12 @@ label{
         display: inline-block;
         font-size: 30px;
         margin: 5vh;
-        background: rgb(37, 37, 37);
+        background: transparent;
         justify-content: center;
         align-items: center;
         width: 50vw;
         padding-top: 2vh;
         padding-bottom: 2vh;
-        border-radius: 30px;
-        
     }
 
     .logo{
