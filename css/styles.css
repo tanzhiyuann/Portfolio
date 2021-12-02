@@ -1179,6 +1179,7 @@ section > div > .container:nth-child(3){
     left:95vw;
     top: 90vh;
     transition: all 0.2s ease-out;
+    background-color:transparent;
 }
 
 #scroll-to-top:hover{
@@ -1285,18 +1286,15 @@ section > div > .container:nth-child(3){
         height: 40px;
     }
     #scroll-to-top{
-        left: 90vw;
-        background-color: rgba(255, 255, 255, 0.619);
+        left: 93vw;
         border-radius:10px;
     }
     
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
     #scroll-to-top{
-        left: 80vw;
-        background-color: rgb(255, 255, 255);
+        left: 85vw;
         border-radius:10px;
-        padding: 3px
     }
 }
