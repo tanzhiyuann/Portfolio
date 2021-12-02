@@ -2,9 +2,33 @@
 A functional personal portfolio website to display my skills, talents and inform the user more about me. <br>
 The website should be responsive and interactive to impress the audience/user with my current programming knowledge and potentially hire me.
 
-I went with a mainly dark theme as a dark theme would reduce eye fatigue as unlike having to stare at a white screen for too long, dark themes are typically smoother to the eyes and it is less bright (Especially when viewing in the night). However the awards page is an exception as I wanted to user to be "awake" when looking through my achievements which is one of the more imporant page in my portfolio.
+I went with a mainly dark theme as a dark theme would reduce eye fatigue as unlike having to stare at a white screen for too long, dark themes are typically smoother to the eyes and it is less bright (Especially when viewing in the night). However the awards page is an exception as I wanted to user to be "awake" when looking through my achievements which is one of the more important page in my portfolio.
 
 Link to website : https://notaddison.github.io/Portfolio/
+
+## Table of Contents
+- [Addison's Portfolio (ID Assignment 1)](#addisons-portfolio-id-assignment-1)
+  - [Table of Contents](#table-of-contents)
+  - [Design Process](#design-process)
+    - [User perspectives:](#user-perspectives)
+    - [Process : <br>](#process--)
+  - [Features (Functionality & Aesthetics)](#features-functionality--aesthetics)
+    - [Functionality](#functionality)
+    - [Aesthetics](#aesthetics)
+    - [Additional Features (For Later)](#additional-features-for-later)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Technologies Used](#technologies-used)
+  - [Testing](#testing)
+    - [Screenshots](#screenshots)
+    - [Supported Devices](#supported-devices)
+    - [Test Case(s)](#test-cases)
+    - [Bug(s)](#bugs)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Guides/Refereces/Tutorials](#guidesreferecestutorials)
+    - [Acknowledgements](#acknowledgements)
+
 ## Design Process
  The website is for sharing information to potential employees or friends of mine, to showcase my skills and talents as well as to present myself in a positive and elegant manner.
 I want them to achieve this by being able to navigate through the website with ease with as few click as possible while keeping the content neat with a clean and simple layout.
@@ -62,14 +86,14 @@ Languages, framework, libraries & tools
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   - A VS Code extension used to view a live preview of the html site with CSS and JS.
 
-## Testing (Screenshots, Supported/Tested Devices, Test Cases, Bugs)
+## Testing 
 
 
-### Screenshots (Desktop + Laptop + <i>emulated</i> Mobile)
+### Screenshots
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 
-### Supported/Tested Devices
+### Supported Devices
 - [Tested/Supported Devices and Browsers](Tested-Devices.md)
 
 ### Test Case(s)
@@ -131,7 +155,7 @@ In addition, you should mention in this section how your project looks and works
 - [Navigation Bar & Skills Progress Bar](https://www.youtube.com/watch?v=tcskp-ncN0I)
 - [Custom Scrollbar](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
 
-### Acknowledgements (Reference site)
+### Acknowledgements
 
 - Received inspiration from : 
   - [Felipekrust](https://www.felipekrust.com.br/) < Glitchy Effects
