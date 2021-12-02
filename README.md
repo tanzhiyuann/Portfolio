@@ -7,11 +7,11 @@ Link to website : https://notaddison.github.io/Portfolio/
  The website is for sharing information to potential employees or friends of mine, to showcase my skills and talents as well as to present myself in a positive and elegant manner.
 I want them to achieve this by being able to navigate through the website with ease with as few click as possible while keeping the content neat with a clean and simple layout.
 
-User perspectives:
+### User perspectives:
 - As a potential employer, I want to be stunned at the amount of effort and details placed into the website, so that I can see how interested the programmer (me) is.
 - As an average student/friend, I want to be able to know more about my classmate/friend and pinpoint their skills and abilities, so that I can know my classmate's/friend's strength.
 
-Process : <br>
+### Process : <br>
 1. MS Paint ([Low-Fedality]()) - date
 2. Adobe XD ([High-Fedality]()) - date
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
@@ -25,8 +25,8 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
   > Users would not have to scroll all the way to the top to access the navigation bar, reducing the hassle to scroll to the top and making the webpage easier to navigate.
 - Skills project cards (text on hover)
   > Helps to clean up space to make the skills page look cleaner and not too cluttered by revealing relevant text.
-### Aesthetics
 
+### Aesthetics
 - Interactive images (animation on hover)
   > Makes website feel more interactive and less boring when navigating (dekstop).
 - Typewriting effect in index page
@@ -47,8 +47,7 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 - NA
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Languages, framework, libraries & tools
 
 - [Visual Studio Code](https://code.visualstudio.com/)
     - The project used VS Studio (text editor) to code in HTML,CSS & JS
@@ -65,11 +64,12 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing (Screenshots, Supported/Tested Devices, Test Cases, Bugs)
 
+
 ### Screenshots (Desktop + Laptop + <i>emulated</i> Mobile)
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 ### Supported/Tested Devices
-
+[Tested/Supported Devices and Browsers](Tested-Devices.md)
 
 ### Test Case(s)
 1. Contact form:
@@ -82,7 +82,6 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 
 ## Credits
 
