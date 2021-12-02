@@ -13,7 +13,7 @@ window.addEventListener("scroll",function(e){
         bottomoffset = 800;
     }
 
-    if (window.pageYOffset >= 400 && window.pageYOffset < docheight-bottomoffset){
+    if (window.pageYOffset > 0 && window.pageYOffset >= 400 && window.pageYOffset < docheight-bottomoffset) {
         element.style.display = "block";
         
     }
