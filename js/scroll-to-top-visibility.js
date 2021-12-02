@@ -6,14 +6,14 @@ window.addEventListener("scroll",function(e){
 
     var bottomoffset = 0;
     if (screen.width <768){
-        bottomoffset = 900;
+        bottomoffset = 1000;
     }
     else{
 
         bottomoffset = 800;
     }
 
-    if (window.pageYOffset > 0 && window.pageYOffset >= 400 && window.pageYOffset < docheight-bottomoffset) {
+    if (window.pageYOffset > 0 && window.pageYOffset >= 400 && window.pageYOffset < docheight-bottomoffset){
         element.style.display = "block";
         
     }
