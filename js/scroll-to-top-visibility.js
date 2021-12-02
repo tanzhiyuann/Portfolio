@@ -1,6 +1,6 @@
 window.addEventListener("scroll",function(e){
     const element = document.getElementById("scroll-to-top")
-    console.log(window.pageYOffset)
+    // console.log(window.pageYOffset)
     var docheight = document.body.offsetHeight
     //Stops scrolling after word is not visible. (Prevents Overflow)
 
