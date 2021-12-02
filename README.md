@@ -1,154 +1,110 @@
-# ID - Assignment 1
-Interactive Development Assignment 1 (Personal Portfolio) <br>
- A functional website to display my skills, talents and inform the user more about me. The website should be responsive and interactive to impress the audience/user with my current programming knowledge and potentially hire me.
+# Addison's Portfolio (ID Assignment 1)
+A functional personal portfolio website to display my skills, talents and inform the user more about me. <br>
+The website should be responsive and interactive to impress the audience/user with my current programming knowledge and potentially hire me.
 
-<br>
 Link to website : https://notaddison.github.io/Portfolio/
-<br>
+## Design Process
+ The website is for sharing information to potential employees or friends of mine, to showcase my skills and talents as well as to present myself in a positive and elegant manner.
+I want them to achieve this by being able to navigate through the website with ease with as few click as possible while keeping the content neat with a clean and simple layout.
 
-# Table of Contents
-- [ID - Assignment 1](#id---assignment-1)
-- [Table of Contents](#table-of-contents)
-- [Purpose Of Application](#purpose-of-application)
-- [Reasons for Designs](#reasons-for-designs)
-- [Features](#features)
-- [To Do](#to-do)
-- [Supported / Tested Devices & Browsers](#supported--tested-devices--browsers)
-- [Status](#status)
-- [References & Credits](#references--credits)
-    - [Assets (icons):](#assets-icons)
-    - [Tutorials used :](#tutorials-used-)
+User perspectives:
+- As a potential employer, I want to be stunned at the amount of effort and details placed into the website, so that I can see how interested the programmer (me) is.
+- As an average student/friend, I want to be able to know more about my classmate/friend and pinpoint their skills and abilities, so that I can know my classmate's/friend's strength.
 
-<br>
+Process : <br>
+1. MS Paint ([Low-Fedality]()) - date
+2. Adobe XD ([High-Fedality]()) - date
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
+These files should themselves either be included as a pdf file in the project itself (in an separate directory)
+Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
-# Purpose Of Application
-<b>Intended user audience :</b> Adults looking for potential employees<br>
-<b>Intent & Purpose :</b> For them to consider me a good candidate and potentially hire me <br>
-<b>Intended user audience :</b> Working Adults 
+## Features (Functionality & Aesthetics)
 
-<br>
-
-
-# Reasons for Designs
->A clean, simple and easy website to navigate website. <br>
-I went with a primarily <b>dark theme</b> as if the audience is viewing in a dark environment, it would be less painful on their eyes then being "flash banged" by a bright white theme.
-
->However, for my achievement page, I went with a white Design as I wanted the user to be "awake" when viewing my achievements and breakout from the mundane and repetitive dark theme. <br>
-<b>(switch up in theme = more exciting imo)</b>
-
-<br>
-
-# Features
+### Functionality
 - Sticky Navigation bar
   > Users would not have to scroll all the way to the top to access the navigation bar, reducing the hassle to scroll to the top and making the webpage easier to navigate.
-- Interactive images (animation on hover)<br>
+- Skills project cards (text on hover)
+  > Helps to clean up space to make the skills page look cleaner and not too cluttered by revealing relevant text.
+### Aesthetics
+
+- Interactive images (animation on hover)
   > Makes website feel more interactive and less boring when navigating (dekstop).
 - Typewriting effect in index page
   > Makes website feel more professional and provides a visually appealing aesthetic.
 - Fade-in on scroll
   > Makes the website feels "smoother" and shows responsiveness.
-- Skills project cards (text on hover)
-  > Helps to clean up space to make the skills page look cleaner and not too cluttered by revealing relevant text.
 - Awards image 3D effect on hover
   > Drop shadow helps to make the images feel like that they are "popping out" from the document background. This makes it more interesting and helps to keep the page unique and less mundane.
+- Animated Navigation hamburger & menu for mobile
+  > Gives a more "polished feel" and potentially improve the UX (User Experience) instead of having thing shoved and immediately shown to the user's face.
+ 
+### Additional Features (For Later)
+- Glitchy transition effect and loading screen.
+- Working contact form
+- Implement parallax.js & tilt.js
 
-<br>
+### Features Left to Implement
+- NA
 
-# To Do 
-<b>General : </b>
-- ~~Fix typos (index,awards,skill,contact page)~~
-- ~~Change parallax text font (awards page)~~
-- ~~Fix document structure (awards page)~~
-- ~~Fix Jigsaw CSS validator error + clean up warnings~~
-- ~~Update about me text (index page)~~
-- ~~Update Merit award description (awards page)~~
-- ~~W3 validator clean up warnings (index page)~~
+## Technologies Used
 
-- ~~Replace placeholders (skill page)~~
-- ~~Rename styles.css to style.css~~ 
-- ~~Add Footer (index,awards,skill page)~~
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- ~~Replace placeholders (contact page)~~
-- ~~Change parallax background image [2018,2019] (awards page)~~
-
-- Comments for JS/HTML/CSS
-- Final clean Up HTML & CSS files
-
-<b>Features :</b>
-- ~~Custom scroll bar~~
-- ~~Button to return to top (awards page)~~
-- ~~Fade in effect when scrolling (skills/awards page)~~
-- ~~Responsive contact me form (feedback after submit)~~
-- Slide out nav bar [mobile] (skills,awards,contact page)
-- ~~Add more animated elements (Awards page)~~
-- ~~Skills project cards ; slide out text~~
-
-<b>Bugs :</b>
-- ~~aboutimage disappears when tapped (aka "hover") [iphone11] (index page)~~
-- ~~Fix media query for Awards page~~
-- ~~Mobile parallax overflow [mobile] (awards page)~~
-- ~~Mask text hard to read (awards page)~~
-- ~~Parallax text appears on NAV menu [mobile] (awards page)~~
-- Skill year text not loading on iOS 14 (physical iphone 11) [works on android??]
-<br>
-
-# Supported / Tested Devices & Browsers
-<b>Browsers</b>
-- Google Chrome
-- Microsoft Edge
-- TOR (The Onion Router) [JS Enabled]
-- IOS Safari
-
-<b>Tested Devices (Emulated on chrome)</b>
-- Galaxy Fold (Smallest Device)
-- Moto G4
-- Galaxy S5
-- Pixel 2
-- Pixel 2 XL
-- iPhone 5/SE
-- iPhone 6/7/8
-- iPhone 6/7/8 Plus
-- iPhone X
-- iPad
-- iPad Pro
-- Surface Duo
-- Nest Hub
-- Nest Hub Max
-
-<b>Tested Devices (Physical)</b>
-- iPhone 7
-- iPhone 11
-- iPad mini (1st Gen)
-- iPhone 12 mini
-
-<b>Supported Sizes (General) [Strong Support]</b>
-- 320 x 126<br>
------To-----<br>
-- 1440 x 1080
-
-# Status
-Still In Development 📝
+- [Visual Studio Code](https://code.visualstudio.com/)
+    - The project used VS Studio (text editor) to code in HTML,CSS & JS
+- [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
+  - Used to make the assets and images
+- [Adobe XD]()
+  - Used to create the wireframe of the website
+- [Normalize CSS](https://necolas.github.io/normalize.css/)
+  - An external CSS to make browsers render elements more consistently
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+  - A VS Code extension used to view a live preview of the html site with CSS and JS.
 
 
-# References & Credits
-### Assets (icons):
->Social Media Icons : https://icons8.com/
 
->Videos : (Extracted from steam wallpaper engine workshop)
+## Testing (Screenshots, Supported/Tested Devices, Test Cases, Bugs)
 
->Colour Gradients : https://www.eggradients.com/
+### Screenshots (Desktop + Laptop + <i>emulated</i> Mobile)
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-### Tutorials used :
->Typewriter Effect : https://www.youtube.com/watch?v=mULM6KcF_mo
+### Supported/Tested Devices
 
->Hamburgur Menu : https://www.youtube.com/watch?v=EW65Ll_9ioE
 
->Text Mask : https://www.youtube.com/watch?v=8eAWHc34MT0
+### Test Case(s)
+1. Contact form:
+    1. Go to the "Contact" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
->Card Slide Out Text : https://www.youtube.com/watch?v=5DEq5cWNYt8
+### Bug(s)
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
->Fade in on scroll : https://www.youtube.com/watch?v=huVJW23JHKQ
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
->Navigation Bar & Progress bar : https://www.youtube.com/watch?v=tcskp-ncN0I
 
->Custom Scrollbar : https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+## Credits
+
+### Content
+- No text was copied from any external sources.
+
+### Media
+- [Social Media Icons](https://icons8.com/)
+- [Videos & Images]() < Extracted videos from "Wallpaper Engine" Steam Application
+- [Colour Gradients](https://www.eggradients.com/)
+
+### Guides/Refereces/Tutorials
+- [Typewriter Effect](https://www.youtube.com/watch?v=mULM6KcF_mo)
+- [Hamburgur Menu](https://www.youtube.com/watch?v=EW65Ll_9ioE)
+- [Text Mask](https://www.youtube.com/watch?v=8eAWHc34MT0)
+- [Card Slide Out Text](https://www.youtube.com/watch?v=5DEq5cWNYt8)
+- [Fade In On Scroll](https://www.youtube.com/watch?v=5DEq5cWNYt8)
+- [Navigation Bar & Skills Progress Bar](https://www.youtube.com/watch?v=tcskp-ncN0I)
+- [Custom Scrollbar](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
+
+### Acknowledgements (Reference site)
+
+- Recieved inspiration from : 
+  - [felipekrust](https://www.felipekrust.com.br/) < Glitchy Effects
+  - [Landing page](https://www.theblackboardartist.com/)
