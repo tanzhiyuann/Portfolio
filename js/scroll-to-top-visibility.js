@@ -5,19 +5,33 @@ window.addEventListener("scroll",function(e){
     //Stops scrolling after word is not visible. (Prevents Overflow)
 
     var bottomoffset = 0;
-    if (screen.width <768){
-        bottomoffset = 1000;
+    var viewwidth = "";
+    var topOffset= 0;
+    var bottomOffset = 0;
+    if (screen.width <= 768){
+        // Mobile
+        bottomoffset = 1500;
+        viewwidth = "90vw";
+        bottomOffset = 400;
+        topOffset = 500;
+        if (screen.width <= 425){
+            viewwidth = "80vw";
+            topOffset = 720;
+        }
     }
     else{
-
-        bottomoffset = 800;
+        //PC
+        bottomoffset = 1500;
+        viewwidth = "93vw";
+        topOffset = 500;
+        bottomOffset = 400;
     }
 
-    if (window.pageYOffset > 0 && window.pageYOffset >= 400 && window.pageYOffset < docheight-bottomoffset){
+    if (window.pageYOffset >= topOffset && window.pageYOffset >= bottomOffset && window.pageYOffset < docheight-bottomoffset){
         element.style.display = "block";
-        
+        element.style.left = viewwidth;
     }
     else{
-        element.style.display = "none";
+        document.getElementById("scroll-to-top").style.left = "110vw";
     }
 });
