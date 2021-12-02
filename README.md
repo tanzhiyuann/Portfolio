@@ -159,7 +159,16 @@ In addition, you should mention in this section how your project looks and works
 
 ### Media
 - [Social Media Icons](https://icons8.com/)
-- [Videos & Images]() < Extracted videos from "Wallpaper Engine" Steam Application
+- [Videos - Wallpaper Engine]()
+  - [Index Page BG](https://steamcommunity.com/sharedfiles/filedetails/?id=2102734753)
+  - [Contact Page BG](https://steamcommunity.com/sharedfiles/filedetails/?id=1171169416)
+- [Images - Wallpaper Engine]()
+  - [BG1](https://steamcommunity.com/sharedfiles/filedetails/?id=884307090)
+  - [BG2](https://steamcommunity.com/sharedfiles/filedetails/?id=1685364754)
+  - [BG3](https://steamcommunity.com/sharedfiles/filedetails/?id=1416247907)
+  - [BG4](https://steamcommunity.com/sharedfiles/filedetails/?id=1373816444)
+  - [BG5](https://store.steampowered.com/app/383870/Firewatch/) << A Screenshot from the game
+  - [Hiragana Generator Card BG](https://tenor.com/view/apartamento-qualquer-banner-banner-gif-20682795)
 - [Colour Gradients](https://www.eggradients.com/)
 
 ### Guides/References/Tutorials
