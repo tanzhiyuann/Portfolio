@@ -481,7 +481,6 @@ footer{
 
 .indexnav > div > a:hover{
     color: rgb(96, 104, 255);
-    font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
 }
@@ -492,8 +491,6 @@ footer{
 
     background-color: #537895;
     background-image: linear-gradient(315deg, #061427 0%, #1a1c1d 74%);
-
-    /* background: linear-gradient(to bottom, transparent, #1a1c1d 5%); */
 }
 
 
