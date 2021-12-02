@@ -14,8 +14,8 @@ I want them to achieve this by being able to navigate through the website with e
 - As an average student/friend, I want to be able to know more about my classmate/friend and pinpoint their skills and abilities, so that I can know my classmate's/friend's strength.
 
 ### Process : <br>
-1. MS Paint ([Low-Fedality]()) - date
-2. Adobe XD ([High-Fedality]()) - date
+1. MS Paint ([Low-Fidelity]()) - date
+2. Adobe XD ([High-Fidelity]()) - date
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
@@ -30,7 +30,7 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ### Aesthetics
 - Interactive images (animation on hover)
-  > Makes website feel more interactive and less boring when navigating (dekstop).
+  > Makes website feel more interactive and less boring when navigating (desktop).
 - Typewriting effect in index page
   > Makes website feel more professional and provides a visually appealing aesthetic.
 - Fade-in on scroll
@@ -85,7 +85,7 @@ In addition, you should mention in this section how your project looks and works
 <br><br>
 3. Fade-in on scroll:
     1. Go to the "awards" page
-    2. Scroll down slowly, elements should appear slowly based on the visiblity percentage of the element.
+    2. Scroll down slowly, elements should appear slowly based on the visibility percentage of the element.
 <br><br>
 4. Project card hover
    1. Go to the "skills" page
@@ -121,7 +121,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Guides/Refereces/Tutorials
 - [Typewriter Effect](https://www.youtube.com/watch?v=mULM6KcF_mo)
-- [Hamburgur Menu](https://www.youtube.com/watch?v=EW65Ll_9ioE)
+- [Hamburger Menu](https://www.youtube.com/watch?v=EW65Ll_9ioE)
 - [Text Mask](https://www.youtube.com/watch?v=8eAWHc34MT0)
 - [Card Slide Out Text](https://www.youtube.com/watch?v=5DEq5cWNYt8)
 - [Fade In On Scroll](https://www.youtube.com/watch?v=5DEq5cWNYt8)
@@ -130,6 +130,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Acknowledgements (Reference site)
 
-- Recieved inspiration from : 
+- Received inspiration from : 
   - [Felipekrust](https://www.felipekrust.com.br/) < Glitchy Effects
   - [TheBlackboardArtist](https://www.theblackboardartist.com/) < Landing Page
