@@ -87,7 +87,12 @@ Languages, framework, libraries & tools
   - A VS Code extension used to view a live preview of the html site with CSS and JS.
 - [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
   - Google Chrome extension to take a full webpage screenshot <b>(Buggy when trying to take screenshot while in device emulation mode on Chrome)</b>
-
+- [HTML Validator](https://validator.w3.org/nu/)
+  - Used to check for HTML errors/warnings, document outline and image report (Textual alternatives)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+  - A simple CSS validator to check for any CSS errors.
+- [JS Validator](https://javascriptvalidator.net/)
+  - Used to check for unused variables or errors in the JavaScript code (Typically missing semicolons)
 ## Testing 
 
 
