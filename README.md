@@ -2,6 +2,8 @@
 A functional personal portfolio website to display my skills, talents and inform the user more about me. <br>
 The website should be responsive and interactive to impress the audience/user with my current programming knowledge and potentially hire me.
 
+I went with a mainly dark theme as a dark theme would reduce eye fatigue as unlike having to stare at a white screen for too long, dark themes are typically smoother to the eyes and it is less bright (Especially when viewing in the night). However the awards page is an exception as I wanted to user to be "awake" when looking through my achievements which is one of the more imporant page in my portfolio.
+
 Link to website : https://notaddison.github.io/Portfolio/
 ## Design Process
  The website is for sharing information to potential employees or friends of mine, to showcase my skills and talents as well as to present myself in a positive and elegant manner.
@@ -60,23 +62,47 @@ Languages, framework, libraries & tools
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   - A VS Code extension used to view a live preview of the html site with CSS and JS.
 
-
-
 ## Testing (Screenshots, Supported/Tested Devices, Test Cases, Bugs)
 
 
 ### Screenshots (Desktop + Laptop + <i>emulated</i> Mobile)
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
+
 ### Supported/Tested Devices
-[Tested/Supported Devices and Browsers](Tested-Devices.md)
+- [Tested/Supported Devices and Browsers](Tested-Devices.md)
 
 ### Test Case(s)
 1. Contact form:
     1. Go to the "Contact" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
+    2. Submitting an empty form with nothing written down would display an error.
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    4. Try to submit the form with all inputs valid and a success alert should appear.
+<br><br>
+2. Parallax scroll:
+    1. Go to the "awards" page
+    2. Scroll down slowly, text should move apart.
+<br><br>
+3. Fade-in on scroll:
+    1. Go to the "awards" page
+    2. Scroll down slowly, elements should appear slowly based on the visiblity percentage of the element.
+<br><br>
+4. Project card hover
+   1. Go to the "skills" page
+   2. Scroll down and hover over a project card
+   3. Card scale would become slightly bigger and a drop shadow behind it would appear.
+   4. Text would be displayed over the project when mouse hover.
+<br><br>
+5. Awards images hover
+   1. Go to the "awards" page
+   2. Scroll down and hover your mouse over an award image
+   3. Award should rotate and display a drop shadow which is casted onto the white background (Gives 3D/popping out illusion)
+<br><br>
+6. Scroll to top
+   1. Go to the "awards" page
+   2. Scroll down below the parallax image
+   3. An arrow button on the bottom right of the screen would slide in from the right and appear
+   4. Clicking onto the image/button would bring the user to the parallax text (top)
 
 ### Bug(s)
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
