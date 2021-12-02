@@ -1030,7 +1030,7 @@ textarea:hover,input:hover{
 .white-body{
     background-color: #ffffff;
     background-image: linear-gradient(315deg,#d7e1ec 0%, #ffffff 74%);
-    background-size: 1920px 8000px;
+    background-size: 1920px 8300px;
 
 }
 
@@ -1176,10 +1176,14 @@ section > div > .container:nth-child(3){
 
 #scroll-to-top{
     position: fixed;
-    left:95vw;
-    top: 90vh;
-    transition: all 0.2s ease-out;
+    left:110vw;
+    top: 85vh;
+    transition: all 0.5s ease-out;
     background-color:transparent;
+    display: block;
+    background-color: #4242422a;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 #scroll-to-top:hover{
@@ -1282,19 +1286,20 @@ section > div > .container:nth-child(3){
         transform: none;
     }
 
-    #scroll-to-top >img{
-        height: 40px;
+    #scroll-to-top:hover{
+        transform: none;
     }
-    #scroll-to-top{
-        left: 93vw;
-        border-radius:10px;
-    }
+
     
 }
 
 @media only screen and (max-width: 425px) {
     #scroll-to-top{
-        left: 85vw;
         border-radius:10px;
+        top: 80vh;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(255, 38, 0);
+        width: 100%;
+        filter: drop-shadow(-10px 20px 10px #02070e70);
     }
 }
