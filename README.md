@@ -85,6 +85,8 @@ Languages, framework, libraries & tools
   - An external CSS to make browsers render elements more consistently
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   - A VS Code extension used to view a live preview of the html site with CSS and JS.
+- [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
+  - Google Chrome extension to take a full webpage screenshot <b>(Buggy when trying to take screenshot while in device emulation mode on Chrome)</b>
 
 ## Testing 
 
@@ -92,12 +94,14 @@ Languages, framework, libraries & tools
 ### Screenshots
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 #### Desktop Preview
+> Screenshots taken on a 24" Monitor
 ![index.html Desktop](images/Web-Preview/index-page-preview.png)
 ![awards.html Desktop](images/Web-Preview/awards-page-preview.png)
 ![skills.html Desktop](images/Web-Preview/skills-page-preview.png)
 ![contact.html Desktop](images/Web-Preview/contact-page-preview.png)
 
 #### Phone Preview
+> Screenshots taken on a 320px x 825px (chrome emulated device)
 <b>(Unable to load as preview as it makes the README.md messy)</b>
 - [index.html Mobile](images/Web-Preview/index-page-preview-mobile.png)
 - [awards.html Mobile](images/Web-Preview/awards-page-preview-mobile.png)
