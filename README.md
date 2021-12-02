@@ -8,13 +8,16 @@ Link to website : https://notaddison.github.io/Portfolio/
 
 # Table of Contents
 - [ID - Assignment 1](#id---assignment-1)
-  - [Table of Contents](#table-of-contents)
-  - [Purpose Of Application](#purpose-of-application)
-  - [Reasons for Designs](#reasons-for-designs)
-  - [Features](#features)
-  - [To Do](#to-do)
-  - [Supported / Tested Devices & Browsers](#supported--tested-devices--browsers)
-  - [Status](#status)
+- [Table of Contents](#table-of-contents)
+- [Purpose Of Application](#purpose-of-application)
+- [Reasons for Designs](#reasons-for-designs)
+- [Features](#features)
+- [To Do](#to-do)
+- [Supported / Tested Devices & Browsers](#supported--tested-devices--browsers)
+- [Status](#status)
+- [References & Credits](#references--credits)
+    - [Assets (icons):](#assets-icons)
+    - [Tutorials used :](#tutorials-used-)
 
 <br>
 
@@ -73,7 +76,7 @@ I went with a primarily <b>dark theme</b> as if the audience is viewing in a dar
 
 <b>Features :</b>
 - ~~Custom scroll bar~~
-- Button to return to top (awards page)
+- ~~Button to return to top (awards page)~~
 - ~~Fade in effect when scrolling (skills/awards page)~~
 - ~~Responsive contact me form (feedback after submit)~~
 
