@@ -38,8 +38,8 @@ I want them to achieve this by being able to navigate through the website with e
 - As an average student/friend, I want to be able to know more about my classmate/friend and pinpoint their skills and abilities, so that I can know my classmate's/friend's strength.
 
 ### Process : <br>
-1. MS Paint ([Low-Fidelity]()) - date
-2. Adobe XD ([High-Fidelity]()) - date <br>
+1. MS Paint ([Initial Low-Fidelity](https://drive.google.com/file/d/1ySl413qqJpJu97WLOT2eKxpQiHZXQr1M/view?usp=sharing)) - 13/11/21 <b>(OUTDATED)</b>
+2. Adobe XD ([High-Fidelity](https://drive.google.com/file/d/19HDx6efhRaXQFoKXmAss_VgtxEuuY9yD/view?usp=sharing)) - 3/12/21 <b>(UPDATED)</b><br>
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
