@@ -106,5 +106,5 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Acknowledgements (Reference site)
 
 - Recieved inspiration from : 
-  - [felipekrust](https://www.felipekrust.com.br/) < Glitchy Effects
-  - [Landing page](https://www.theblackboardartist.com/)
+  - [Felipekrust](https://www.felipekrust.com.br/) < Glitchy Effects
+  - [TheBlackboardArtist](https://www.theblackboardartist.com/) < Landing Page
