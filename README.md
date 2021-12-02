@@ -15,7 +15,7 @@ I want them to achieve this by being able to navigate through the website with e
 
 ### Process : <br>
 1. MS Paint ([Low-Fidelity]()) - date
-2. Adobe XD ([High-Fidelity]()) - date
+2. Adobe XD ([High-Fidelity]()) - date <br>
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
@@ -105,9 +105,12 @@ In addition, you should mention in this section how your project looks and works
    4. Clicking onto the image/button would bring the user to the parallax text (top)
 
 ### Bug(s)
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- [x] aboutimage disappears when tapped (aka "hover") [iphone11] (index page)
+- [x] Fix media query for Awards page
+- [x] Mobile parallax overflow [mobile] (awards page)
+- [x] Mask text hard to read (awards page)
+- [x] Parallax text appears on NAV menu [mobile] (awards page)
+- [ ] Skill year text not loading on iOS 14 (physical iphone 11) [works on android but not iPhone??]
 
 ## Credits
 
