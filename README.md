@@ -28,7 +28,7 @@ Link to website : https://notaddison.github.io/Portfolio/
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
-    - [Guides/Refereces/Tutorials](#guidesreferecestutorials)
+    - [Guides/References/Tutorials](#guidesreferencestutorials)
     - [Acknowledgements](#acknowledgements)
 
 ## Design Process
@@ -162,7 +162,7 @@ In addition, you should mention in this section how your project looks and works
 - [Videos & Images]() < Extracted videos from "Wallpaper Engine" Steam Application
 - [Colour Gradients](https://www.eggradients.com/)
 
-### Guides/Refereces/Tutorials
+### Guides/References/Tutorials
 - [Typewriter Effect](https://www.youtube.com/watch?v=mULM6KcF_mo)
 - [Hamburger Menu](https://www.youtube.com/watch?v=EW65Ll_9ioE)
 - [Text Mask](https://www.youtube.com/watch?v=8eAWHc34MT0)
