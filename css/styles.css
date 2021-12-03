@@ -187,11 +187,12 @@ h2,h3{
     display: none;
 }
 
-label{
+label,.single-line-p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     color: rgb(170, 170, 170);
     font-weight: 300;
+    margin: 0px;
 }
 
 .logo{
@@ -888,7 +889,9 @@ footer{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color:white;
+    font-size: 18px;
     font-style: italic;
+    margin: 0px;
 }
 
 .input-row{
