@@ -40,8 +40,8 @@ I want them to achieve this by being able to navigate through the website with e
 - As an average student/friend, I want to be able to know more about my classmate/friend and pinpoint their skills and abilities, so that I can know my classmate's/friend's strength.
 
 ### Process : <br>
-1. MS Paint ([Initial Low-Fidelity](https://drive.google.com/file/d/1ySl413qqJpJu97WLOT2eKxpQiHZXQr1M/view?usp=sharing)) - 13/11/21 <b>(OUTDATED)</b>
-2. Adobe XD ([High-Fidelity](https://xd.adobe.com/view/961cfa49-90dc-4e72-86d8-00804ce37e64-c34f/)) - 3/12/21 <b>(UPDATED)</b><br>
+1. MS Paint ([Initial Low-Fidelity Wireframe](https://drive.google.com/file/d/1ySl413qqJpJu97WLOT2eKxpQiHZXQr1M/view?usp=sharing)) - 13/11/21 <b>(OUTDATED)</b>
+2. Adobe XD ([High-Fidelity Wireframe](https://xd.adobe.com/view/961cfa49-90dc-4e72-86d8-00804ce37e64-c34f/)) - 3/12/21 <b>(UPDATED)</b><br>
 
 
 ## Features (Functionality & Aesthetics)
@@ -86,7 +86,8 @@ Languages, framework, libraries & tools
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   - A VS Code extension used to view a live preview of the html site with CSS and JS.
 - [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
-  - Google Chrome extension to take a full webpage screenshot <b>(Buggy when trying to take screenshot while in device emulation mode on Chrome)</b>
+  - Google Chrome extension to take a full webpage screenshot
+  - <b>(Buggy when trying to take screenshot while in device emulation mode on Chrome)</b>
 - [HTML Validator](https://validator.w3.org/nu/)
   - Used to check for HTML errors/warnings, document outline and image report (Textual alternatives)
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -106,8 +107,9 @@ In addition, you should mention in this section how your project looks and works
 ![contact.html Desktop](images/Web-Preview/contact-page-preview.png)
 
 #### Phone Preview
-> Screenshots taken on a 320px x 825px (chrome emulated device)
-<b>(Unable to load as preview as it makes the README.md messy)</b>
+> Screenshots taken on a 320px x 825px (chrome emulated device) <br>
+<b>(Unable to load as preview as it makes the README.md messy)</b> <br>
+<b>[Extension caused some screenshots to be buggy!]</b>
 - [index.html Mobile](images/Web-Preview/index-page-preview-mobile.png)
 - [awards.html Mobile](images/Web-Preview/awards-page-preview-mobile.png)
 - [skills.html Mobile](images/Web-Preview/skills-page-preview-mobile.png)
@@ -155,12 +157,13 @@ In addition, you should mention in this section how your project looks and works
 - [x] Mobile parallax overflow [mobile] (awards page)
 - [x] Mask text hard to read (awards page)
 - [x] Parallax text appears on NAV menu [mobile] (awards page)
-- [ ] Skill year text not loading on iOS 14 (physical iphone 11) [works on android but not iPhone??]
+- [ ] Skill year text not loading on iOS 14 (physical iphone 11) [Works On Android, Not on iPhone]
+- [ ] Videos will not play on iOS Low Power Mode (LPM) [Works On Android, Not on iPhone]
 
 ## Credits
 
 ### Content
-- No text was copied from any external sources.
+- No text content was copied from any external sources.
 
 ### Media
 - [Social Media Icons](https://icons8.com/)
