@@ -4,14 +4,15 @@
 |       :: Use Ctrl+F To Navigate Through to find the styles for a page ::          |
 |       --------------------------------------------------------------------        |
 |                                                                                   |
-|       > Flexbox fallbacks (defaults)                                              |
-|       > NAVIGATION (NAV) BAR                                                      |
+|       > Flexbox fallbacks (defaults) [88-108]                                     |
+|       > NAVIGATION (NAV) BAR [111-301]                                            |
+|       > Footer [304-390]                                                          |
 |                                                                                   |
-|       > index.html                                                                |
-|       > awards.html                                                               |
+|       > index.html [393-624]                                                      |
+|       > skills.html [626-879]                                                     |
 |           > NAVIGATION (BAR) WHITE BACKGROUND                                     |
-|       > skills.html                                                               |
-|       > contact.html                                                              |
+|       > contact.html [881-1021]                                                   |
+|       > awards.html [1023-1301]                                                   |
 |                                                                                   |
 +-----------------------------------------------------------------------------------+
 */
@@ -98,14 +99,13 @@ h2,h3{
 /* card template */
 .card{
     display: flex;
-    /* flex-wrap: row; */
     flex-direction: column;
     padding: 40px;
     flex-basis: 30%;
     border-radius: 20px;
     background-color: #222222;
     height: 400px;
-    }
+}
 
 
 /* >>> ---------- NAVIGATION (NAV) BAR ----------<<<*/
@@ -154,8 +154,7 @@ h2,h3{
 }
 
 .navbar > .nav-container > .menu  {
-    padding: 0px;
-    
+    padding: 0px; 
 }
 
 .navbar > .nav-container > .menu > li > a {
@@ -165,7 +164,6 @@ h2,h3{
     padding-left: 30px;
     padding-right: 30px;
     font-weight: 500;
-    
 }
 
 .navbar > .nav-container > .menu > li > a:hover {
@@ -181,7 +179,6 @@ h2,h3{
     list-style-type: none;
     display: inline-block;
     padding: 0px;
-
 }
 
 #hamburger{
@@ -201,6 +198,7 @@ label{
     margin-left: 20px;
 }
 
+/* >>> ---------- Navigation Hamburger Menu (Mobile) ----------<<<*/
 @media only screen and (max-width: 768px) {
     #hamburger{
         -webkit-appearance: none;
@@ -429,7 +427,6 @@ footer{
     
     color: #E0E0E0;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    
 }
 
 .description{
@@ -444,8 +441,6 @@ footer{
     color: rgb(253, 70, 70);
     margin-top: 2px;
     margin-left: 5px;
-
-    
 }
 
 #blinkingCursor{
@@ -533,10 +528,10 @@ footer{
 /* Phone (Iphone 11, Iphone X, Iphone 5) */
 @media only screen and (max-width: 768px) {
     nav > div > label{
-    color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 20px;
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
     }
 
     .indexnav{
@@ -646,6 +641,7 @@ footer{
     flex-basis: 50%;
 }
 
+/* >-- Skills Progress Bar --<*/
 .cs, .py, .html, .css, .js, .sql{
     display: flex;
 
@@ -743,7 +739,6 @@ footer{
 
 .card-with-bars{
     display: flex;
-    /* flex-wrap: row; */
     flex-direction: column;
     padding: 40px;
     border-radius: 20px;
@@ -1064,8 +1059,7 @@ textarea:hover,input:hover{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10px;
-    border-radius: 5rem;
-            
+    border-radius: 5rem;       
 }
 
 .parallax-h1{
