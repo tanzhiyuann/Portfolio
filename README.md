@@ -33,7 +33,7 @@ Video Walkthrough : [click me!](video/ID_S10222525B_ChuaJieYiAddison_Assg1_Video
     - [Acknowledgements](#acknowledgements)
 
 ## Design Process
- The website is for sharing information to potential employees or friends of mine, to showcase my skills and talents as well as to present myself in a positive and elegant manner.
+The website is for sharing information to potential employees or friends of mine, to showcase my skills and talents as well as to present myself in a positive and elegant manner.
 I want them to achieve this by being able to navigate through the website with ease with as few click as possible while keeping the content neat with a clean and simple layout.
 
 ### User perspectives:
@@ -99,7 +99,7 @@ Languages, framework, libraries & tools
 
 
 ### Screenshots
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
 #### Desktop Preview
 > Screenshots taken on a 24" Monitor
 ![index.html Desktop](images/Web-Preview/index-page-preview.png)
