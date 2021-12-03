@@ -4,7 +4,8 @@ The website should be responsive and interactive to impress the audience/user wi
 
 I went with a mainly dark theme as a dark theme would reduce eye fatigue as unlike having to stare at a white screen for too long, dark themes are typically smoother to the eyes and it is less bright (Especially when viewing in the night). However the awards page is an exception as I wanted to user to be "awake" when looking through my achievements which is one of the more important page in my portfolio.
 
-Link to website : https://notaddison.github.io/Portfolio/
+Link To Website : https://notaddison.github.io/Portfolio/<br>
+Video Walkthrough : [click me!](video/ID_S10222525B_ChuaJieYiAddison_Assg1_VideoWalkthrough.mp4)
 
 ## Table of Contents
 - [Addison's Portfolio (ID Assignment 1)](#addisons-portfolio-id-assignment-1)
