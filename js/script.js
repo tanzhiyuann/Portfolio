@@ -12,10 +12,10 @@ document.addEventListener("scroll",function(){
 
 // >> NAVIGATION (NAV) BAR [MOBILE] <<
 console.log('loaded');
-var burgor = document.getElementById("hamburger");
+var burger = document.getElementById("hamburger");
 var menu = document.querySelector(".menu");
 let i = 0;
-burgor.addEventListener("click", function(){
+burger.addEventListener("click", function(){
     
     i++; // if clicked once, number is odd thus, menu is open. <<
     if (i%2 === 0){
